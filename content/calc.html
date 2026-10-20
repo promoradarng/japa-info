@@ -1,0 +1,31 @@
+<section id="calc">
+  <div class="wrap">
+    <div><span class="kicker k-purple">Money matters</span><h1>How much naira you go need show?</h1></div>
+    <p class="lede">Rough living-funds figure for your visa, converted at the rate you enter. Tuition, flights and fees come on top.</p>
+    <div class="calc">
+      <div class="calc-row">
+        <label for="route">Route
+          <select id="route">
+            <option value="uk-lon">UK Student · London (before 30 Nov)</option>
+            <option value="uk-out" selected>UK Student · outside London (before 30 Nov)</option>
+            <option value="uk-lon-new">UK Student · London (from 30 Nov)</option>
+            <option value="uk-out-new">UK Student · outside London (from 30 Nov)</option>
+            <option value="ca">Canada Study · 1 person</option>
+            <option value="de">Germany Opportunity Card · 12 months</option>
+            <option value="ie">Ireland Student · 1 year</option>
+            <option value="nz">New Zealand Student · 1 year</option>
+          </select>
+        </label>
+        <label for="rate"><span id="rate-label">Naira per £1</span>
+          <input id="rate" type="number" inputmode="decimal" min="1" step="1" value="2000">
+        </label>
+      </div>
+      <div class="result" aria-live="polite">
+        <span class="label">Living funds to show</span>
+        <span class="big" id="out-naira">₦0</span>
+        <small id="out-foreign"></small>
+      </div>
+      <small class="flag">Example exchange rates only. Put in today's rate from your bank before you plan.</small>
+    </div>
+  </div>
+</section>

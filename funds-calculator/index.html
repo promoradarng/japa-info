@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Proof of funds calculator in naira · Japa Info</title>
+<meta name="description" content="Work out how much naira you need to show for a UK, Canada, Germany, Ireland or New Zealand visa, using today&#x27;s exchange rate.">
+<link rel="canonical" href="https://japainfong.com/funds-calculator/">
+<meta property="og:site_name" content="Japa Info">
+<meta property="og:title" content="Proof of funds calculator in naira">
+<meta property="og:description" content="Work out how much naira you need to show for a UK, Canada, Germany, Ireland or New Zealand visa, using today&#x27;s exchange rate.">
+<meta property="og:url" content="https://japainfong.com/funds-calculator/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#cf1126">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23cf1126'/%3E%3Ctext x='32' y='44' font-family='Arial Black,Arial' font-weight='900' font-size='30' text-anchor='middle' fill='%23fff'%3EJI%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@75..150,600..900&family=Familjen+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="brand-name">Japa Info</span><span class="brand-tag">Japa Wise</span></a>
+  </div>
+</header>
+<nav class="jump" aria-label="Site">
+  <div class="wrap"><a href="/">Home</a><a href="/news/">News</a><a href="/visa-routes/">Visa routes</a><a href="/study-abroad/">Study abroad</a><a href="/funds-calculator/" aria-current="page">Funds calculator</a><a href="/costs/">Costs</a><a href="/when-to-apply/">When to apply</a><a href="/overstaying/">Overstaying</a><a href="/visa-scams/">Spot fake visas</a></div>
+</nav>
+<main>
+<section id="calc">
+  <div class="wrap">
+    <div><span class="kicker k-purple">Money matters</span><h1>How much naira you go need show?</h1></div>
+    <p class="lede">Rough living-funds figure for your visa, converted at the rate you enter. Tuition, flights and fees come on top.</p>
+    <div class="calc">
+      <div class="calc-row">
+        <label for="route">Route
+          <select id="route">
+            <option value="uk-lon">UK Student · London (before 30 Nov)</option>
+            <option value="uk-out" selected>UK Student · outside London (before 30 Nov)</option>
+            <option value="uk-lon-new">UK Student · London (from 30 Nov)</option>
+            <option value="uk-out-new">UK Student · outside London (from 30 Nov)</option>
+            <option value="ca">Canada Study · 1 person</option>
+            <option value="de">Germany Opportunity Card · 12 months</option>
+            <option value="ie">Ireland Student · 1 year</option>
+            <option value="nz">New Zealand Student · 1 year</option>
+          </select>
+        </label>
+        <label for="rate"><span id="rate-label">Naira per £1</span>
+          <input id="rate" type="number" inputmode="decimal" min="1" step="1" value="2000">
+        </label>
+      </div>
+      <div class="result" aria-live="polite">
+        <span class="label">Living funds to show</span>
+        <span class="big" id="out-naira">₦0</span>
+        <small id="out-foreign"></small>
+      </div>
+      <small class="flag">Example exchange rates only. Put in today's rate from your bank before you plan.</small>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links"><a href="/news/">News</a><a href="/visa-routes/">Visa routes</a><a href="/study-abroad/">Study abroad</a><a href="/funds-calculator/">Funds calculator</a><a href="/costs/">Costs</a><a href="/when-to-apply/">When to apply</a><a href="/overstaying/">Overstaying</a><a href="/visa-scams/">Spot fake visas</a></div>
+    <div class="foot-links"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/disclaimer/">Disclaimer</a></div>
+    <span>Japa Info is an information site, not a law firm or visa agent. Always confirm requirements on the official immigration website of the country you are applying to before you pay anything.</span>
+    <span>© 2026 Japa Info · japainfong.com</span>
+  </div>
+</footer>
+<script src="/assets/calc.js" defer></script>
+</body>
+</html>
