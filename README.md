@@ -1,7 +1,14 @@
 # Japa Info · Japa Wise
 
-Daily visa news and legal relocation routes for Nigerians: UK, USA, Canada, Australia, New Zealand, Ireland, Europe, Japan and South Korea.
+Daily visa news and legal relocation guides for Nigerians. Live at https://japainfong.com
 
-- Live site: https://japainfong.com (also promoradarng.github.io/japa-info)
-- News stories live in the `news-data` JSON block inside `index.html`. Each story can take an optional `"image": "images/<file>.jpg"`.
-- Photos go in the `images/` folder. Only use photos you own or have permission to use.
+## How the site is built
+Edit the sources, then run `python3 build.py`. It regenerates every page.
+
+- `data/news.json` — news stories (each gets its own page at /news/<id>/)
+- `content/*.html` — guide pages and About / Contact / Privacy / Disclaimer
+- `assets/site.css`, `assets/calc.js` — styles and the funds calculator
+- `images/` — photos the owner supplied (a story can use `"image": "images/x.jpg"`)
+
+Generated files (don't edit by hand): `index.html`, `news/`, the guide folders, `404.html`, `sitemap.xml`, `robots.txt`.
+Never remove `CNAME`.
