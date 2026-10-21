@@ -103,9 +103,17 @@ def page(path, title, desc, body, current="", extra_head="", scripts=""):
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
 <meta property="og:type" content="{'article' if path.startswith('/news/') and path != '/news/' else 'website'}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{SITE}/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Japa Info logo: visa news for Nigerians, japainfong.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{e(title)}">
+<meta name="twitter:description" content="{e(desc)}">
+<meta name="twitter:image" content="{SITE}/assets/og-image.jpg">
 <meta name="theme-color" content="#cf1126">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23cf1126'/%3E%3Ctext x='32' y='44' font-family='Arial Black,Arial' font-weight='900' font-size='30' text-anchor='middle' fill='%23fff'%3EJI%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="/assets/favicon-48.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@75..150,600..900&family=Familjen+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
@@ -240,7 +248,7 @@ c.forEach(function(b){b.addEventListener('click',function(){c.forEach(function(x
         ld = json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": s["headline"],
                          "datePublished": s["date"], "dateModified": updated if s.get("lead") else s["date"],
                          "description": s["summary"], "mainEntityOfPage": f"{SITE}/news/{s['id']}/",
-                         "publisher": {"@type": "Organization", "name": NAME}}, ensure_ascii=False)
+                         "image": SITE + "/assets/og-image.jpg", "publisher": {"@type": "Organization", "name": NAME, "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo-512.png"}}}, ensure_ascii=False)
         body = f"""<article class="article">
   <div class="wrap">
     <p class="crumbs"><a href="/">Home</a> › <a href="/news/">News</a> › {e(name)}</p>
