@@ -1,12 +1,11 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "stories": [
   {
    "id": "uk-funds-nov26",
    "date": "2026-09-09",
    "country": "UK",
    "topic": "Students",
-   "lead": true,
    "kicker": "Money hike",
    "headline": "UK student money goes up on 30 November",
    "summary": "Students must show £1,570 a month for London and £1,203 outside London from 30 November 2026, up from £1,529 and £1,171. For a 9-month course that is £14,130 or £10,827.",
@@ -157,6 +156,43 @@
    "tip": "Pick a course that leads to work in a high-demand field if you want to stay after study.",
    "source": "NZ Immigration Info",
    "url": "https://nzimmigration.info/student-visa/"
+  },
+  {
+   "id": "uk-student-delays-oct26",
+   "date": "2026-10-20",
+   "country": "UK",
+   "topic": "Students",
+   "kicker": "Visa limbo",
+   "headline": "UK student visa delays leave applicants missing course start dates",
+   "summary": "Universities report students stuck waiting for visas well beyond the three-week standard, with some cases taking up to four months and even the £500 priority service affected. Study visa applications fell 19% to 352,500 in the year to September 2026. The Home Office says straightforward applications are still being decided on time.",
+   "tip": "Choose the priority service only if you can afford it, and book your appointment as early as your CAS allows.",
+   "source": "VisaVerge",
+   "url": "https://www.visaverge.com/f1visa/international-students-in-limbo-as-home-office-visa-delays-and-refusals-mount/"
+  },
+  {
+   "id": "ng-ogun-visa-hostage",
+   "date": "2026-10-20",
+   "country": "NG",
+   "topic": "Fraud",
+   "kicker": "Visa trap",
+   "headline": "Police free 11 Ghanaians held in Ogun after fake visa promise",
+   "summary": "Ogun police say they rescued 11 Ghanaians in Sagamu on 19 October who had been lured to Nigeria with promises of Canadian and Spanish visas. Each reportedly paid about GH₵40,000 before being held against their will. Detectives are still hunting the rest of the network.",
+   "tip": "Never travel to meet an agent who promises a visa; real visas are applied for online and at official visa centres.",
+   "source": "Channels TV",
+   "url": "https://www.channelstv.com/2026/10/21/police-uncover-international-visa-fraud-in-ogun-rescue-11-ghanaians/"
+  },
+  {
+   "id": "ca-ee-highwage-nov26",
+   "date": "2026-10-16",
+   "country": "CA",
+   "topic": "Rule change",
+   "kicker": "Points shake-up",
+   "headline": "Canada Express Entry rewards high-wage jobs from 3 November",
+   "summary": "From 3 November 2026, Express Entry gives new points for a qualifying job offer or at least a year of Canadian work in a high-wage occupation, worth up to 100 points for an offer. A job offer will no longer need an LMIA to count, though IRCC will check it is genuine. Scores in the pool will be recalculated and draws will pause for up to two weeks while that happens.",
+   "tip": "If you have a genuine high-wage Canadian job offer, update your Express Entry profile before 3 November.",
+   "source": "CIC News",
+   "url": "https://www.cicnews.com/2026/10/2026-express-entry-reforms-1081487.html",
+   "lead": true
   }
  ]
 }
