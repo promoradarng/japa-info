@@ -139,7 +139,8 @@ def page(path, title, desc, body, current="", extra_head="", scripts=""):
     <span>© {date.today().year} Japa Info · japainfong.com</span>
   </div>
 </footer>
-{scripts}</body>
+{scripts}<script src="/assets/ask.js" defer></script>
+</body>
 </html>
 """
 
