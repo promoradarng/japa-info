@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "stories": [
+  {
+   "id": "ca-visitor-103days-oct26",
+   "date": "2026-10-20",
+   "country": "CA",
+   "topic": "Timing",
+   "kicker": "Canada Wait Long",
+   "headline": "Canada visitor visa wait for Nigerians climbs to 103 days",
+   "summary": "IRCC's latest processing estimates put visitor visas from Nigeria at about 103 days, up from roughly 84 to 87 days a month earlier. Study permits from Nigeria also slipped, from 9 weeks to 10, while work permits held at 10 weeks. IRCC says these are estimates, not promises.",
+   "tip": "Apply at least four months before you must travel, and do not buy a ticket until your visa is approved.",
+   "source": "Nairametrics",
+   "url": "https://nairametrics.com/2026/10/20/canada-visitor-visa-processing-time-for-nigerians-rises-to-103-days/"
+  },
+  {
+   "id": "de-agents-warning-oct26",
+   "date": "2026-10-21",
+   "country": "DE",
+   "topic": "Fraud",
+   "kicker": "Agent Wahala",
+   "headline": "German missions warn Nigerians: we don't work with visa agents",
+   "summary": "The German embassy in Abuja and consulate in Lagos said on X that they use no visa agents and that nobody can promise approval, a job or a faster slot. Booking an appointment through the official system costs nothing. The warning followed reports of applicants who paid large sums for fake offers.",
+   "tip": "Use only the official German mission and VFS pages, and never pay anyone who guarantees a visa or an appointment.",
+   "source": "Arbiterz",
+   "url": "https://arbiterz.com/germany-warns-nigerians-against-visa-agents-says-no-one-can-guarantee-approval"
+  },
   {
    "id": "jp-fees-oct26",
    "date": "2026-10-01",
