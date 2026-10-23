@@ -5,7 +5,7 @@ Daily visa news and legal relocation guides for Nigerians. Live at https://japai
 ## How the site is built
 Edit the sources, then run `python3 build.py`. It regenerates every page.
 
-- `data/news.json` — news stories (each gets its own page at /news/<id>/)
+- `data/news.json` — news stories (each gets its own page at /news/<id>/). The latest story (newest date; for the same date, the one listed first) is always the top story, so add new stories at the top of the list
 - `content/*.html` — guide pages and About / Contact / Privacy / Disclaimer
 - `assets/site.css`, `assets/calc.js` — styles and the funds calculator
 - `assets/ask.js` — the "Ask Japa Info" chat button on every page; it talks to the Cloudflare Worker in `worker/ask-japa.js` (deployed at https://ask.japainfong.com)

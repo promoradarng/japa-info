@@ -170,7 +170,7 @@ def main():
     news = json.loads(read("data/news.json"))
     stories = sorted(news["stories"], key=lambda s: s["date"], reverse=True)
     updated = news.get("updated", date.today().isoformat())
-    lead = next((s for s in stories if s.get("lead")), stories[0] if stories else None)
+    lead = stories[0] if stories else None  # latest story is always the top story
     urls = [("/", updated)]
 
     # Remove old generated story folders
@@ -187,7 +187,7 @@ def main():
     <p>{e(lead['summary'])} <a href="/news/{e(lead['id'])}/">Read more</a></p>
   </div>
 </div>"""
-    latest = "".join(story_card(s) for s in stories[:6])
+    latest = "".join(story_card(s) for s in [x for x in stories if x is not lead][:6])
     guide_cards = "".join(f'<a class="guide" href="/{g[0]}/"><h3>{e(g[2])}</h3><p>{e(g[4])}</p></a>' for g in GUIDES)
     home_body = f"""<section class="hero">
   <div class="wrap">
@@ -247,7 +247,7 @@ c.forEach(function(b){b.addEventListener('click',function(){c.forEach(function(x
         src = f'<p class="source">Source: <a href="{e(s["url"])}" rel="noopener" target="_blank">{e(s.get("source") or "original report")}</a>. Always confirm details on the official government website before you act.</p>' if s.get("url") else ""
         tip = f'<div class="tip-box"><span class="kicker k-green">Japa wise</span><p>{e(s["tip"])}</p></div>' if s.get("tip") else ""
         ld = json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": s["headline"],
-                         "datePublished": s["date"], "dateModified": updated if s.get("lead") else s["date"],
+                         "datePublished": s["date"], "dateModified": updated if s is lead else s["date"],
                          "description": s["summary"], "mainEntityOfPage": f"{SITE}/news/{s['id']}/",
                          "image": SITE + "/assets/og-image.jpg", "publisher": {"@type": "Organization", "name": NAME, "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo-512.png"}}}, ensure_ascii=False)
         body = f"""<article class="article">
