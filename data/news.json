@@ -2,6 +2,42 @@
  "updated": "2026-10-23",
  "stories": [
   {
+   "id": "us-denaturalised-oct26",
+   "date": "2026-10-23",
+   "country": "US",
+   "topic": "Fraud",
+   "kicker": "Citizenship gone",
+   "headline": "US court strips Nigerian-born woman of citizenship over passport lie",
+   "summary": "A US federal court in California has revoked the American citizenship of a Nigerian-born woman who was naturalised in 2013. The Justice Department said she had used another person's identity to get a US passport years earlier and lied about it during her citizenship interview. Officials say the case is part of a wider push to take back citizenship obtained through fraud.",
+   "tip": "Be fully truthful on every immigration form and interview: a lie found years later can cost you your papers, even after you become a citizen.",
+   "source": "Legit.ng",
+   "url": "https://www.legit.ng/people/1737627-us-strips-nigerian-woman-american-citizenship-13-years-releases-full-crime/"
+  },
+  {
+   "id": "us-ice-24-nigerians-oct26",
+   "date": "2026-10-12",
+   "country": "US",
+   "topic": "Deportation",
+   "kicker": "ICE arrests",
+   "headline": "US publishes names and photos of 24 arrested Nigerians marked for removal",
+   "summary": "The US Department of Homeland Security has released the names and photos of 24 Nigerians arrested by ICE across the country as part of its mass deportation drive. Their listed offences include wire fraud, money laundering, identity theft, drug crimes and assault. Being on the list does not mean each person has already been deported. An earlier DHS list in July named 124 Nigerians.",
+   "tip": "If you are in the US without valid status or have a criminal case, speak to a licensed immigration lawyer now, not after an arrest.",
+   "source": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/10/us-releases-fresh-names-photos-of-24-nigerians-to-be-deported/"
+  },
+  {
+   "id": "eu-charter-deport-aug26",
+   "date": "2026-08-27",
+   "country": "DE",
+   "topic": "Deportation",
+   "kicker": "Charter flight",
+   "headline": "Germany-led flight deports dozens of Nigerians from four European countries",
+   "summary": "A charter flight organised by Germany, with Austria, Luxembourg and Hungary taking part, returned dozens of Nigerians to Lagos in late August, along with a few Ghanaians and a Gambian. Most came from Germany. Germany has deported more Nigerians than any other EU country this year, with at least 137 removed in five flights between February and June.",
+   "tip": "If your asylum claim or residence permit in Europe has been refused, get legal advice quickly about appeals or voluntary return before a removal order is enforced.",
+   "source": "Freelanews / Peoples Gazette",
+   "url": "https://freelanews.com/nigerians-deported-from-europe-joint-operation/"
+  },
+  {
    "id": "ca-visitor-103days-oct26",
    "date": "2026-10-20",
    "country": "CA",
