@@ -1,6 +1,6 @@
 // "Ask Japa Info" chat helper — Cloudflare Worker.
-// Deploy: Cloudflare dashboard → Workers & Pages → Create → Worker named "ask-japa",
-// paste this file, add a Workers AI binding named AI, and add the custom domain ask.japainfong.com.
+// Deploy: Cloudflare Workers Builds, connected to this repo with root directory "worker" (see wrangler.toml).
+// wrangler.toml adds the Workers AI binding (AI) and the custom domain ask.japainfong.com.
 // The site widget (assets/ask.js) posts to https://ask.japainfong.com/chat.
 
 const MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";

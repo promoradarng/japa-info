@@ -1,0 +1,16 @@
+# Cloudflare Worker for the "Ask Japa Info" chat helper.
+# Deployed by Cloudflare Workers Builds from this folder (root directory: worker).
+name = "ask-japa"
+main = "ask-japa.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[ai]
+binding = "AI"
+
+[[routes]]
+pattern = "ask.japainfong.com"
+custom_domain = true
+
+[observability]
+enabled = true
