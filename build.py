@@ -192,14 +192,14 @@ def main():
     home_body = f"""<section class="hero">
   <div class="wrap">
     <h1>Japa news and visa guides for Nigerians</h1>
-    <p>Straight talk on leaving Nigeria the legal way. Current visa rules, real costs in pounds, dollars and naira, and the scams wey dey wait for you.</p>
+    <p>Straight talk on leaving Nigeria the legal way. Current visa rules, real costs in pounds, dollars and naira, and the scams to watch out for.</p>
     <span class="updated">News updated · {fmt_date(updated)}</span>
   </div>
 </section>
 {lead_html}
 <section id="news">
   <div class="wrap">
-    <div><span class="kicker k-red">Japa news</span><h2>Wetin don change this week</h2></div>
+    <div><span class="kicker k-red">Japa news</span><h2>What changed this week</h2></div>
     <div class="feed">{latest}</div>
     <a class="btn" href="/news/">See all japa news</a>
   </div>
