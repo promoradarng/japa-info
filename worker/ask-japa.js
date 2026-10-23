@@ -75,6 +75,41 @@ async function latestNews(ctx) {
   } catch { return ""; }
 }
 
+// Text of the site's own guide pages + the funds calculator figures, cached for 3 hours.
+const GUIDE_PATHS = ["/visa-routes/", "/funds-calculator/", "/costs/", "/when-to-apply/", "/study-abroad/", "/overstaying/", "/visa-scams/"];
+
+function pageText(html) {
+  const m = html.match(/<main>([\s\S]*?)<\/main>/i);
+  let t = (m ? m[1] : html)
+    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<(br|\/p|\/li|\/h\d|\/tr|\/div)[^>]*>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&pound;/g, "£").replace(/&euro;/g, "€")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+    .replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n").trim();
+  return t.slice(0, 6000);
+}
+
+async function guideText(ctx) {
+  const cache = caches.default;
+  const key = new Request(SITE + "/__ask_guides_v1");
+  const hit = await cache.match(key);
+  if (hit) return hit.text();
+  const parts = await Promise.all(GUIDE_PATHS.map(async p => {
+    try { const r = await fetch(SITE + p); return r.ok ? `### Page ${SITE}${p}\n${pageText(await r.text())}` : ""; } catch { return ""; }
+  }));
+  try {
+    const js = await (await fetch(SITE + "/assets/calc.js")).text();
+    const rows = [...js.matchAll(/"([\w-]+)":\{amt:(\d+),cur:"([^"]+)",name:"\w+",note:"([^"]+)"\}/g)]
+      .map(m => `- ${m[1]}: ${m[3]}${Number(m[2]).toLocaleString("en-GB")} (${m[4]})`);
+    const labels = [...(parts[1] || "").matchAll(/UK Student[^\n]*|Canada Study[^\n]*|Germany Opportunity[^\n]*|Ireland Student[^\n]*|New Zealand Student[^\n]*/g)].map(m => m[0]);
+    if (rows.length) parts.push(`### Proof-of-funds figures used by the Japa Info calculator (living costs only unless stated; keys: uk-lon = UK London before 30 Nov 2026, uk-out = UK outside London before 30 Nov 2026, uk-lon-new / uk-out-new = from 30 Nov 2026, ca = Canada, de = Germany Opportunity Card, ie = Ireland, nz = New Zealand)\n${rows.join("\n")}${labels.length ? "\nCalculator options: " + labels.join("; ") : ""}`);
+  } catch {}
+  const text = parts.filter(Boolean).join("\n\n");
+  if (text) ctx.waitUntil(cache.put(key, new Response(text, { headers: { "Cache-Control": "max-age=10800" } })));
+  return text;
+}
+
 export default {
   async fetch(request, env, ctx) {
     const origin = request.headers.get("Origin") || "";
@@ -104,12 +139,23 @@ export default {
       .map(m => ({ role: m.role, content: m.content.slice(0, m.role === "user" ? MAX_CHARS : 2000) }));
     if (!clean.length || clean[clean.length - 1].role !== "user") return json({ error: "Please type a question." }, 400, origin);
 
-    const news = await latestNews(ctx);
+    const [news, guides] = await Promise.all([latestNews(ctx), guideText(ctx)]);
     const today = new Date().toISOString().slice(0, 10);
-    const system = `${SYSTEM}\n\nToday's date: ${today}.\n${news ? "Latest Japa Info news stories (most recent first):\n" + news : ""}`;
+    const system = `${SYSTEM}
+
+Facts to rely on:
+- Base every figure (money amounts, fees, dates, processing times, points) ONLY on the Japa Info guide text and news below. Copy figures exactly as written there, with the date they apply from. Never invent or "update" a figure.
+- If the guide text and news do not cover something, say clearly that you don't have a confirmed figure, explain the general rule if you know it, and send the reader to the official site.
+- Keep answers short: usually under 150 words. Write clean, complete sentences.
+
+Today's date: ${today}.
+
+${guides ? "JAPA INFO GUIDE TEXT:\n" + guides : ""}
+
+${news ? "LATEST JAPA INFO NEWS (most recent first):\n" + news : ""}`;
 
     try {
-      const out = await env.AI.run(MODEL, { messages: [{ role: "system", content: system }, ...clean], max_tokens: 700, temperature: 0.3 });
+      const out = await env.AI.run(MODEL, { messages: [{ role: "system", content: system }, ...clean], max_tokens: 500, temperature: 0.2 });
       const reply = (out && (out.response || out.result?.response) || "").trim();
       if (!reply) return json({ error: "Sorry, I couldn't answer that just now. Please try again." }, 502, origin);
       return json({ reply }, 200, origin);
