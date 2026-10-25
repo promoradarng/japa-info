@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-25",
  "stories": [
+  {
+   "id": "nz-student-refusals-oct26",
+   "date": "2026-10-15",
+   "country": "NZ",
+   "topic": "Visa denial",
+   "kicker": "NZ Don Tight",
+   "headline": "New Zealand refuses 34% of student visas, names Nigeria in fraud warning",
+   "summary": "Between July and September 2026, Immigration New Zealand turned down about a third of full-fee student visa applications, against 13% the year before. The agency says it found altered and reused documents, and named Nigeria among five countries where it saw fraud concerns, with master's courses checked hardest. It stressed this is about individual applications, not every Nigerian applicant.",
+   "tip": "Use only your own genuine documents, never reuse bank statements an agent gives you, and make sure your funds proof matches your real finances.",
+   "source": "1News (from RNZ)",
+   "url": "https://www.1news.co.nz/2026/10/15/what-is-behind-a-recent-spike-in-refused-study-visa-applications/",
+   "lead": true
+  },
   {
    "id": "us-denaturalised-oct26",
    "date": "2026-10-23",
