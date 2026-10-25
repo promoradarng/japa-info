@@ -145,9 +145,53 @@ def page(path, title, desc, body, current="", extra_head="", scripts=""):
 """
 
 
+import re as _re
+EMBED_USED = set()
+
+
+def embed_html(url):
+    """Social media embed for a story's "embed" field (URL of the original public post)."""
+    u = str(url or "").strip()
+    m = _re.match(r"^https://(?:www\.)?instagram\.com/(?:[A-Za-z0-9_.]+/)?(p|reel|tv)/([A-Za-z0-9_-]+)", u)
+    if m:
+        EMBED_USED.add("instagram")
+        link = "https://www.instagram.com/%s/%s/" % (m.group(1), m.group(2))
+        return '<div class="embed"><blockquote class="instagram-media" data-instgrm-permalink="%s" data-instgrm-version="14"><a href="%s" target="_blank" rel="noopener">View this post on Instagram</a></blockquote></div>' % (e(link), e(link))
+    m = _re.match(r"^https://(?:www\.|mobile\.)?(?:x|twitter)\.com/([A-Za-z0-9_]+)/status/(\d+)", u)
+    if m:
+        EMBED_USED.add("x")
+        link = "https://twitter.com/%s/status/%s" % (m.group(1), m.group(2))
+        return '<div class="embed"><blockquote class="twitter-tweet" data-dnt="true"><a href="%s" target="_blank" rel="noopener">View this post on X</a></blockquote></div>' % e(link)
+    m = _re.match(r"^https://(?:www\.)?tiktok\.com/@([A-Za-z0-9_.]+)/video/(\d+)", u)
+    if m:
+        EMBED_USED.add("tiktok")
+        link = "https://www.tiktok.com/@%s/video/%s" % (m.group(1), m.group(2))
+        return '<div class="embed"><blockquote class="tiktok-embed" cite="%s" data-video-id="%s"><section><a href="%s" target="_blank" rel="noopener">View this video on TikTok</a></section></blockquote></div>' % (e(link), m.group(2), e(link))
+    m = _re.match(r"^https://(?:www\.|m\.)?(?:youtube\.com/(?:watch\?(?:.*&)?v=|shorts/|live/)|youtu\.be/)([A-Za-z0-9_-]{11})", u)
+    if m:
+        return '<div class="embed embed-yt"><iframe src="https://www.youtube-nocookie.com/embed/%s" title="YouTube video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>' % m.group(1)
+    if _re.match(r"^https://(?:www\.|m\.)?facebook\.com/[^\s\"<>]+$", u) or _re.match(r"^https://fb\.watch/[A-Za-z0-9_-]+/?$", u):
+        video = bool(_re.search(r"/(videos|reel|watch)\b|fb\.watch", u))
+        from urllib.parse import quote
+        src = "https://www.facebook.com/plugins/%s.php?href=%s&show_text=true&width=500" % ("video" if video else "post", quote(u, safe=""))
+        return '<div class="embed embed-fb%s"><iframe src="%s" title="Facebook post" loading="lazy" scrolling="no" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>' % (" embed-fbv" if video else "", e(src))
+    return ""
+
+
+def embed_scripts():
+    out = ""
+    if "instagram" in EMBED_USED:
+        out += '<script async src="https://www.instagram.com/embed.js"></script>\n'
+    if "x" in EMBED_USED:
+        out += '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>\n'
+    if "tiktok" in EMBED_USED:
+        out += '<script async src="https://www.tiktok.com/embed.js"></script>\n'
+    return out
+
+
 def thumb(s, cls="thumb"):
     name, bg = COUNTRIES.get(s["country"], (s["country"], "var(--char)"))
-    inner = ('<img class="ph" src="/%s" alt="" loading="lazy">' % e(s["image"].lstrip("/"))) if s.get("image") \
+    inner = ('<img class="ph" src="/%s" alt="%s" loading="lazy">' % (e(s["image"].lstrip("/")), e(s.get("alt", "")))) if s.get("image") \
         else '<b>%s</b>' % e(name)
     style = "" if s.get("image") else ' style="background:%s"' % bg
     return '<div class="%s"%s aria-hidden="true">%s<i>%s</i></div>' % (cls, style, inner, e(s.get("topic", "")))
@@ -180,9 +224,10 @@ def main():
     # ---------- Home ----------
     lead_html = ""
     if lead:
+        top_img = (f'<figure class="top-ph"><a href="/news/{e(lead['id'])}/"><img src="/{e(lead['image'].lstrip('/'))}" alt="{e(lead.get('alt', ''))}"></a>' + (f'<figcaption>{e(lead["credit"])}</figcaption>' if lead.get("credit") else "") + '</figure>') if lead.get("image") else ""
         lead_html = f"""<div class="top">
   <div class="wrap">
-    <span class="kicker">{e(lead.get('kicker') or lead.get('topic'))}</span>
+    {top_img}<span class="kicker">{e(lead.get('kicker') or lead.get('topic'))}</span>
     <h2><a href="/news/{e(lead['id'])}/">{e(lead['headline'])}</a></h2>
     <p>{e(lead['summary'])} <a href="/news/{e(lead['id'])}/">Read more</a></p>
   </div>
@@ -249,14 +294,20 @@ c.forEach(function(b){b.addEventListener('click',function(){c.forEach(function(x
         ld = json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": s["headline"],
                          "datePublished": s["date"], "dateModified": updated if s is lead else s["date"],
                          "description": s["summary"], "mainEntityOfPage": f"{SITE}/news/{s['id']}/",
-                         "image": SITE + "/assets/og-image.jpg", "publisher": {"@type": "Organization", "name": NAME, "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo-512.png"}}}, ensure_ascii=False)
+                         "image": SITE + "/" + s["image"].lstrip("/") if s.get("image") else SITE + "/assets/og-image.jpg", "publisher": {"@type": "Organization", "name": NAME, "logo": {"@type": "ImageObject", "url": SITE + "/assets/logo-512.png"}}}, ensure_ascii=False)
+        EMBED_USED.clear()
+        emb = embed_html(s.get("embed"))
+        if s.get("image"):
+            media = thumb(s, 'thumb hero-thumb') + (f'<p class="photo-credit">{e(s["credit"])}</p>' if s.get("credit") else "") + emb
+        else:
+            media = emb or thumb(s, 'thumb hero-thumb')
         body = f"""<article class="article">
   <div class="wrap">
     <p class="crumbs"><a href="/">Home</a> › <a href="/news/">News</a> › {e(name)}</p>
     <span class="kicker {k}">{e(s.get('kicker') or s.get('topic'))}</span>
     <h1>{e(s['headline'])}</h1>
     <p class="meta"><span>{e(name)} · {e(s.get('topic',''))} · {fmt_date(s['date'])}</span></p>
-    {thumb(s, 'thumb hero-thumb')}
+    {media}
     <p class="standfirst">{e(s['summary'])}</p>
     {tip}
     {src}
@@ -267,7 +318,7 @@ c.forEach(function(b){b.addEventListener('click',function(){c.forEach(function(x
   </div>
 </article>"""
         write(f"news/{s['id']}/index.html", page(f"/news/{s['id']}/", s["headline"], s["summary"][:300], body, "/news/",
-                                                 extra_head=f'<script type="application/ld+json">{ld}</script>\n'))
+                                                 extra_head=f'<script type="application/ld+json">{ld}</script>\n', scripts=embed_scripts()))
         urls.append((f"/news/{s['id']}/", s["date"]))
 
     # ---------- Guide pages ----------
