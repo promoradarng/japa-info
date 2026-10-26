@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "stories": [
+  {
+   "id": "ng-passport-uk-oct26",
+   "date": "2026-10-26",
+   "country": "NG",
+   "topic": "Timing",
+   "kicker": "Passport Rush",
+   "headline": "Last days: Nigeria passport clinics in UK close 30 October",
+   "summary": "The Nigeria Immigration Service and the High Commission in London are running a second special passport exercise until 30 October 2026. Sessions hold in Manchester, London, Cardiff and Aberdeen, and you must book an appointment online first. Bring your old passport booklet for any renewal, reissue or data change, plus your payment receipt and appointment slip.",
+   "tip": "If your passport expires within six months, book a slot now and check the High Commission page for the full list of documents.",
+   "source": "Nigeria High Commission, London",
+   "url": "https://www.nigeriahc.org.uk/immigration/",
+   "lead": true
+  },
   {
    "id": "nz-student-refusals-oct26",
    "date": "2026-10-15",
@@ -11,8 +24,7 @@
    "summary": "Between July and September 2026, Immigration New Zealand turned down about a third of full-fee student visa applications, against 13% the year before. The agency says it found altered and reused documents, and named Nigeria among five countries where it saw fraud concerns, with master's courses checked hardest. It stressed this is about individual applications, not every Nigerian applicant.",
    "tip": "Use only your own genuine documents, never reuse bank statements an agent gives you, and make sure your funds proof matches your real finances.",
    "source": "1News (from RNZ)",
-   "url": "https://www.1news.co.nz/2026/10/15/what-is-behind-a-recent-spike-in-refused-study-visa-applications/",
-   "lead": true
+   "url": "https://www.1news.co.nz/2026/10/15/what-is-behind-a-recent-spike-in-refused-study-visa-applications/"
   },
   {
    "id": "us-denaturalised-oct26",
