@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-02",
  "stories": [
+  {
+   "id": "nz-graduate-visa-nov26",
+   "date": "2026-09-10",
+   "country": "NZ",
+   "topic": "Students",
+   "kicker": "Fresh Window",
+   "headline": "New Zealand opens six-month graduate work visa on 16 November",
+   "summary": "Immigration New Zealand will start accepting a new Short-Term Graduate Work Visa on 16 November 2026. It gives six months of open work rights to graduates of full-time courses at levels 5 to 7 that last at least 24 weeks and do not already qualify for a Post-Study Work Visa. Applicants need NZ$5,000 in funds and must apply within three months of their student visa ending; students whose visa expired before 16 August are out.",
+   "tip": "Check your student visa expiry date and course level now, and gather your medical certificate, chest X-ray and bank statement before applications open.",
+   "source": "Immigration New Zealand",
+   "url": "https://www.immigration.govt.nz/about-us/news-centre/new-short-term-graduate-work-visa-launching-on-16-november-2026/"
+  },
   {
    "id": "uk-budget-graduate-oct26",
    "date": "2026-10-28",
