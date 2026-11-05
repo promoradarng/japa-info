@@ -33,7 +33,7 @@ COUNTRIES = {
     "NG": ("Nigeria", "linear-gradient(90deg,#008751 0 33%,#f5f5f5 33% 66%,#008751 66%)"),
 }
 TOPIC_CLASS = {"Rule change": "k-blue", "Students": "k-purple", "Visa denial": "k-red",
-               "Fraud": "k-red", "Deportation": "k-red", "Timing": "k-green"}
+               "Visa warning": "k-red", "Timing": "k-green"}
 
 # Guide pages: slug -> (content file, nav label, title, description)
 GUIDES = [
@@ -61,8 +61,8 @@ PAGES = [  # slug, content file, title, description
 NAV = [("/", "Home"), ("/news/", "News")] + [("/%s/" % g[0], g[2]) for g in GUIDES]
 TOPIC_GUIDES = {
     "Rule change": ["visa-routes", "when-to-apply"], "Students": ["study-abroad", "funds-calculator"],
-    "Visa denial": ["funds-calculator", "visa-scams"], "Fraud": ["visa-scams", "visa-routes"],
-    "Deportation": ["overstaying", "visa-routes"], "Timing": ["when-to-apply", "funds-calculator"],
+    "Visa denial": ["funds-calculator", "visa-scams"], "Visa warning": ["visa-scams", "visa-routes"],
+    "Timing": ["when-to-apply", "funds-calculator"],
 }
 
 e = lambda t: html.escape(str(t), quote=True)
@@ -266,7 +266,7 @@ def main():
     news_body = f"""<section>
   <div class="wrap">
     <div><span class="kicker k-red">Japa news</span><h1>All japa news</h1></div>
-    <p class="lede">Visa rule changes, refusals, fraud and deportation news for Nigerians at home and abroad. Updated every morning. Last update: {fmt_date(updated)}.</p>
+    <p class="lede">Immigration news and visa rule changes for Nigerians planning to travel to the UK, USA, Canada, Australia, New Zealand, Ireland, Europe, Japan and South Korea. Updated every morning. Last update: {fmt_date(updated)}.</p>
     <div class="chips" role="group" aria-label="Filter by country">{''.join(chips)}</div>
     <div class="feed" id="feed">{''.join(story_card(s) for s in stories)}</div>
   </div>
@@ -276,7 +276,7 @@ def main():
 c.forEach(function(b){b.addEventListener('click',function(){c.forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');var v=b.getAttribute('data-c');a.forEach(function(s){s.hidden=!(v==='all'||s.getAttribute('data-country')===v)})})})})();
 </script>
 """
-    write("news/index.html", page("/news/", "Japa news", "Daily visa and immigration news for Nigerians: rule changes, refusals, fraud alerts and deportations in the UK, US, Canada, Australia and Europe.", news_body, "/news/", scripts=filt))
+    write("news/index.html", page("/news/", "Japa news", "Daily immigration news and visa rule changes for Nigerians planning to travel to the UK, US, Canada, Australia, New Zealand, Europe, Japan and Korea.", news_body, "/news/", scripts=filt))
     urls.append(("/news/", updated))
 
     # ---------- Story pages ----------

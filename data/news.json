@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-05",
  "stories": [
   {
    "id": "nz-graduate-visa-nov26",
@@ -63,51 +63,6 @@
    "url": "https://www.1news.co.nz/2026/10/15/what-is-behind-a-recent-spike-in-refused-study-visa-applications/"
   },
   {
-   "id": "us-denaturalised-oct26",
-   "date": "2026-10-23",
-   "country": "US",
-   "topic": "Fraud",
-   "kicker": "Citizenship gone",
-   "headline": "US court strips Nigerian-born woman of citizenship over passport lie",
-   "summary": "A US federal court in California has revoked the American citizenship of a Nigerian-born woman who was naturalised in 2013. The Justice Department said she had used another person's identity to get a US passport years earlier and lied about it during her citizenship interview. Officials say the case is part of a wider push to take back citizenship obtained through fraud.",
-   "tip": "Be fully truthful on every immigration form and interview: a lie found years later can cost you your papers, even after you become a citizen.",
-   "source": "Legit.ng",
-   "url": "https://www.legit.ng/people/1737627-us-strips-nigerian-woman-american-citizenship-13-years-releases-full-crime/",
-   "image": "images/us-denaturalised-oct26.jpg",
-   "alt": "A United States passport",
-   "credit": "Stock image: Jeff Sandquist / Flickr, CC BY 2.0"
-  },
-  {
-   "id": "us-ice-24-nigerians-oct26",
-   "date": "2026-10-12",
-   "country": "US",
-   "topic": "Deportation",
-   "kicker": "ICE arrests",
-   "headline": "US publishes names and photos of 24 arrested Nigerians marked for removal",
-   "summary": "The US Department of Homeland Security has released the names and photos of 24 Nigerians arrested by ICE across the country as part of its mass deportation drive. Their listed offences include wire fraud, money laundering, identity theft, drug crimes and assault. Being on the list does not mean each person has already been deported. An earlier DHS list in July named 124 Nigerians.",
-   "tip": "If you are in the US without valid status or have a criminal case, speak to a licensed immigration lawyer now, not after an arrest.",
-   "source": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/10/us-releases-fresh-names-photos-of-24-nigerians-to-be-deported/",
-   "image": "images/us-ice-24-nigerians-oct26.jpg",
-   "alt": "Clocks at Murtala Muhammed International Airport, Lagos",
-   "credit": "Stock image: neajjean / Flickr, CC BY-SA 2.0"
-  },
-  {
-   "id": "eu-charter-deport-aug26",
-   "date": "2026-08-27",
-   "country": "DE",
-   "topic": "Deportation",
-   "kicker": "Charter flight",
-   "headline": "Germany-led flight deports dozens of Nigerians from four European countries",
-   "summary": "A charter flight organised by Germany, with Austria, Luxembourg and Hungary taking part, returned dozens of Nigerians to Lagos in late August, along with a few Ghanaians and a Gambian. Most came from Germany. Germany has deported more Nigerians than any other EU country this year, with at least 137 removed in five flights between February and June.",
-   "tip": "If your asylum claim or residence permit in Europe has been refused, get legal advice quickly about appeals or voluntary return before a removal order is enforced.",
-   "source": "Freelanews / Peoples Gazette",
-   "url": "https://freelanews.com/nigerians-deported-from-europe-joint-operation/",
-   "image": "images/eu-charter-deport-aug26.jpg",
-   "alt": "A passenger plane with boarding stairs",
-   "credit": "Stock image: Payton Chung / Flickr, CC BY 2.0"
-  },
-  {
    "id": "ca-visitor-103days-oct26",
    "date": "2026-10-20",
    "country": "CA",
@@ -126,7 +81,7 @@
    "id": "de-agents-warning-oct26",
    "date": "2026-10-21",
    "country": "DE",
-   "topic": "Fraud",
+   "topic": "Visa warning",
    "kicker": "Agent warning",
    "headline": "German missions warn Nigerians: we don't work with visa agents",
    "summary": "The German embassy in Abuja and consulate in Lagos said on X that they use no visa agents and that nobody can promise approval, a job or a faster slot. Booking an appointment through the official system costs nothing. The warning followed reports of applicants who paid large sums for fake offers.",
@@ -150,7 +105,7 @@
    "id": "uk-ng-fraud-dialogue-oct26",
    "date": "2026-10-21",
    "country": "UK",
-   "topic": "Fraud",
+   "topic": "Visa warning",
    "kicker": "Fraud crackdown",
    "headline": "UK and Nigeria vow tougher action on visa fraud and fake documents",
    "summary": "After talks in London on 6 October, UK and Nigerian officials agreed to work together on visa fraud, organised immigration crime and better document checks. They also pledged to support safe returns of people who abuse the system. No change to UK visa rules for ordinary Nigerian travellers was announced.",
@@ -246,18 +201,6 @@
    "url": "https://thepienews.com/?p=275923"
   },
   {
-   "id": "uk-ng-deport",
-   "date": "2026-03-20",
-   "country": "UK",
-   "topic": "Deportation",
-   "kicker": "Deportation deal",
-   "headline": "UK and Nigeria sign deal to speed up removal of overstayers",
-   "summary": "Nigeria now accepts UK-issued travel letters, so overstayers, refused asylum seekers and foreign offenders can be returned without waiting for a Nigerian passport.",
-   "tip": "If your status is in doubt, get advice from a regulated adviser now.",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202603200001.html"
-  },
-  {
    "id": "eu-schengen-refusals",
    "date": "2026-05-13",
    "country": "EU",
@@ -273,7 +216,7 @@
    "id": "uk-care-closed",
    "date": "2026-05-15",
    "country": "UK",
-   "topic": "Fraud",
+   "topic": "Rule change",
    "kicker": "Scam alert",
    "headline": "Care worker visa from abroad is closed, but agents still sell it",
    "summary": "The UK stopped sponsoring care workers and senior care workers from overseas on 22 July 2025. Any 'care job with sponsorship' offered to someone in Nigeria for a fee is fake.",
@@ -331,18 +274,6 @@
    "image": "images/uk-student-delays-oct26.jpg",
    "alt": "An empty university lecture theatre",
    "credit": "Stock image: barbourians / Flickr, CC BY-SA 2.0"
-  },
-  {
-   "id": "ng-ogun-visa-hostage",
-   "date": "2026-10-20",
-   "country": "NG",
-   "topic": "Fraud",
-   "kicker": "Visa trap",
-   "headline": "Police free 11 Ghanaians held in Ogun after fake visa promise",
-   "summary": "Ogun police say they rescued 11 Ghanaians in Sagamu on 19 October who had been lured to Nigeria with promises of Canadian and Spanish visas. Each reportedly paid about GH₵40,000 before being held against their will. Detectives are still hunting the rest of the network.",
-   "tip": "Never travel to meet an agent who promises a visa; real visas are applied for online and at official visa centres.",
-   "source": "Channels TV",
-   "url": "https://www.channelstv.com/2026/10/21/police-uncover-international-visa-fraud-in-ogun-rescue-11-ghanaians/"
   },
   {
    "id": "ca-ee-highwage-nov26",
