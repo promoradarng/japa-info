@@ -2,6 +2,17 @@
 
 Daily visa news and legal relocation guides for Nigerians. Live at https://japainfong.com
 
+## What the news feed covers (owner's rule, November 2026)
+
+This overrides any older instruction, including the daily news task's prompt.
+
+The news feed reports **only immigration news and visa/immigration rule changes** for the countries the site covers (UK, USA, Canada, Australia, New Zealand, Ireland, Germany, France, Italy, other Schengen/European countries, Japan, South Korea, plus Nigerian passport/NIS changes that affect travel), written for people planning to travel there. Check every one of those countries on each update.
+
+- Include: new or changed visa and immigration rules (fees, funds, eligibility, work rights, post-study work, dependants, entry or travel bans, eVisa/ETA/EES/ETIAS, document changes), processing times and visa centre changes, refusal-rate trends, official announcements and dated deadlines.
+- Do not add: crime or court stories, arrests, raids, deportation flights, removals deals, denaturalisation cases, or crime reports about fake visa promises.
+- An official warning from an embassy or immigration authority to applicants is allowed.
+- Story `topic` must be one of: `Rule change`, `Students`, `Visa denial`, `Visa warning`, `Timing`. (`Fraud` and `Deportation` are no longer used.)
+
 ## How the site is built
 Edit the sources, then run `python3 build.py`. It regenerates every page.
 
