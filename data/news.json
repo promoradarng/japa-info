@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "stories": [
+  {
+   "id": "us-fixed-stay-students-sep26",
+   "date": "2026-09-15",
+   "country": "US",
+   "topic": "Students",
+   "kicker": "Fixed stay",
+   "headline": "US ends open-ended student stay: F-1 degree students get 4 years",
+   "summary": "A US Homeland Security rule that took effect on 15 September 2026 replaces the old 'duration of status' with a fixed end date on the I-94 record. Degree students get up to four years and language students up to 24 months. Staying longer means applying to USCIS for an extension, and a refusal can leave a student with no grace period.",
+   "tip": "Check the admit-until date on your I-94 after every entry, and plan long courses, like PhDs, with an extension in mind.",
+   "source": "ICEF Monitor",
+   "url": "https://monitor.icef.com/2026/07/breaking-us-department-of-homeland-security-publishes-rule-to-end-duration-of-status-for-international-students/"
+  },
   {
    "id": "uk-settlement-10yr-nov26",
    "date": "2026-11-02",
