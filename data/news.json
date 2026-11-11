@@ -1,6 +1,43 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-11",
  "stories": [
+  {
+   "id": "de-lagos-visa-capacity-nov26",
+   "date": "2026-11-06",
+   "country": "DE",
+   "topic": "Timing",
+   "lead": true,
+   "kicker": "More slots",
+   "headline": "Germany's Lagos consulate to add visa counters before year end",
+   "summary": "Germany's Consul General in Lagos, Daniel Krull, said on 6 November that the consulate will open more visa counters before the end of 2026 and work with outside service providers to release more appointments. More files will also be sent to a German processing centre in Europe to cut delays. A document checking centre for Nigerians applying to German universities is planned in Lagos, but no date was given.",
+   "tip": "Book German visa appointments only through the official consulate and service provider websites, and check often for newly released slots.",
+   "source": "Legit.ng / The Guardian",
+   "url": "https://www.legit.ng/world/europe/1739997-germany-increase-visa-slots-nigeria-priority-partner/"
+  },
+  {
+   "id": "au-student-funds-consult-nov26",
+   "date": "2026-11-05",
+   "country": "AU",
+   "topic": "Students",
+   "kicker": "Money wahala",
+   "headline": "Australia may make students park funds in an Australian bank first",
+   "summary": "Australia's Home Affairs department is consulting on tougher Genuine Student rules and new proof-of-funds options. Three of the four options would make applicants hold money in an Australian bank account in their own name before applying, from half of total course and living costs up to a full first year. No decision has been made; submissions close on 23 November 2026.",
+   "tip": "If you plan to study in Australia in 2027, start building documented savings now and watch homeaffairs.gov.au for the final money rules.",
+   "source": "ICEF Monitor",
+   "url": "https://monitor.icef.com/2026/11/amidst-high-visa-refusal-rates-and-falling-commencements-australian-government-opens-consultation-on-reforms-to-genuine-student-test-and-financial-requirements/"
+  },
+  {
+   "id": "ca-levels-2027-nov26",
+   "date": "2026-11-05",
+   "country": "CA",
+   "topic": "Rule change",
+   "kicker": "Same numbers",
+   "headline": "Canada keeps 2027 targets: 380,000 new PRs, 150,000 new students",
+   "summary": "Canada's new immigration plan, released with the federal budget on 5 November, holds permanent resident admissions at 380,000 a year for 2027 to 2029. New temporary arrivals are capped at 370,000 a year, split into 220,000 workers and 150,000 students. Ottawa also plans to give permanent status to many people already in Canada on temporary permits.",
+   "tip": "Study permit places stay tight, so apply early with a strong study plan and clear proof of funds.",
+   "source": "The Canadian Press / BNN Bloomberg",
+   "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/05/ottawa-to-shift-more-temporary-residents-to-permanent-status-as-broad-levels-flatten/"
+  },
   {
    "id": "us-fixed-stay-students-sep26",
    "date": "2026-09-15",
@@ -18,7 +55,6 @@
    "date": "2026-11-02",
    "country": "UK",
    "topic": "Rule change",
-   "lead": true,
    "kicker": "Long wait",
    "headline": "UK sets 10 years as the normal wait for permanent settlement",
    "summary": "The Home Secretary told Parliament on 2 November that most migrants will now wait ten years before settling, up from five. Higher earners above £50,271 and some public service workers can still settle after five years, and the top earners after three. Applicants must also show clean records, strong English, no public debts and steady National Insurance payments. No start date was given in the announcement.",
