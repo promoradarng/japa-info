@@ -1,12 +1,36 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "stories": [
+  {
+   "id": "nz-child-status-residence-nov26",
+   "date": "2026-11-10",
+   "country": "NZ",
+   "topic": "Rule change",
+   "lead": true,
+   "kicker": "Pikin first",
+   "headline": "New Zealand won't grant parents residence while a child is unlawful",
+   "summary": "Immigration New Zealand says that for residence applications lodged from 12 November 2026, a parent or other secondary applicant cannot be approved while a dependent child is in the country without a valid visa. The child must first get a proper visa or leave New Zealand, and dropping the child from the application does not get around the rule. Applications lodged before 12 November are decided under the old rules.",
+   "tip": "If any child in your family has an expired New Zealand visa, sort out their status before you lodge a residence application.",
+   "source": "Immigration New Zealand",
+   "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-for-resident-visa-applications-if-dependent-children-are-unlawfully-in-new-zealand/"
+  },
+  {
+   "id": "ng-visa-refusal-costs-nov26",
+   "date": "2026-11-02",
+   "country": "EU",
+   "topic": "Visa denial",
+   "kicker": "Money down drain",
+   "headline": "Nearly half of Nigerian Schengen visa applications refused in 2025",
+   "summary": "A Foreign Affairs ministry analysis reported by Sunday Punch and BusinessDay puts Nigeria's Schengen refusal rate at 46.9% in 2025, with Belgium, Spain and France refusing the most. Failed Schengen applications alone cost Nigerians about €11.5 million in fees that are never refunded. The same report puts UK refusals at 35.4% in early 2026 and Canadian study permit refusals at about 75%.",
+   "tip": "Before paying any visa fee, check that your bank statements, ties to Nigeria and travel plan clearly match the visa you are asking for.",
+   "source": "BusinessDay",
+   "url": "https://businessday.ng/news/article/nigerians-lose-billions-annually-to-non-refundable-visa-fees-and-strict-global-rejection-rates/"
+  },
   {
    "id": "de-lagos-visa-capacity-nov26",
    "date": "2026-11-06",
    "country": "DE",
    "topic": "Timing",
-   "lead": true,
    "kicker": "More slots",
    "headline": "Germany's Lagos consulate to add visa counters before year end",
    "summary": "Germany's Consul General in Lagos, Daniel Krull, said on 6 November that the consulate will open more visa counters before the end of 2026 and work with outside service providers to release more appointments. More files will also be sent to a German processing centre in Europe to cut delays. A document checking centre for Nigerians applying to German universities is planned in Lagos, but no date was given.",
