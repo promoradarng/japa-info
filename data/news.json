@@ -1,12 +1,47 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "stories": [
+  {
+   "id": "ca-extra-pr-spaces-nov26",
+   "date": "2026-11-10",
+   "country": "CA",
+   "topic": "Rule change",
+   "kicker": "Queue don move",
+   "headline": "Canada sets aside 45,000 extra PR places for spouses of Canadians in 2027",
+   "summary": "IRCC says it will use extra permanent residence spaces in 2027 to clear applications that are already waiting, including up to 45,000 for spouses, common-law partners and dependent children of Canadian citizens and permanent residents who live in Canada. A further 100,000 places will go to workers already in Canadian communities, chosen with the provinces. No new programme is opening, and people who have already applied do not need to contact IRCC.",
+   "tip": "If your spousal PR file is pending, keep your address, passport and contact details up to date in your IRCC account so nothing slows it down.",
+   "source": "Immigration, Refugees and Citizenship Canada",
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html"
+  },
+  {
+   "id": "ca-rural-pr-permanent-nov26",
+   "date": "2026-11-09",
+   "country": "CA",
+   "topic": "Rule change",
+   "kicker": "Village route",
+   "headline": "Canada makes its rural immigration route to PR permanent",
+   "summary": "Canada has turned its Rural Community Immigration Pilot into a permanent programme, with 5,500 admission spaces planned in the 2027-2029 levels plan. The 14 current communities, including Sudbury, Thunder Bay, Brandon and Moose Jaw, stay in, and more will be added later. Candidates still need a job offer from an employer the community has designated, plus a community recommendation.",
+   "tip": "Only trust job offers you can match to the community's official list of designated employers, and never pay anyone for a 'rural job offer'.",
+   "source": "Immigration, Refugees and Citizenship Canada",
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-creates-a-permanent-immigration-pathway-to-help-rural-communities-attract-and-retain-talent0.html"
+  },
+  {
+   "id": "uk-visa-applications-oct26",
+   "date": "2026-11-12",
+   "country": "UK",
+   "topic": "Students",
+   "kicker": "Numbers drop",
+   "headline": "UK student visa applications down 20% in a year, care worker applications down 61%",
+   "summary": "Home Office figures released on 12 November show 349,900 student main applications in the year to October 2026, 20% fewer than a year earlier, while student dependant applications fell 32%. Skilled Worker applications dropped 42% and Health and Care Worker applications fell 61%. The cuts follow tighter rules on dependants, salaries and overseas care recruitment.",
+   "tip": "Fewer applicants does not mean easier approval: prepare full funds proof and a clear study plan, and check your university is still sponsoring Nigerian students.",
+   "source": "UK Home Office (GOV.UK)",
+   "url": "https://www.gov.uk/government/statistics/monthly-entry-clearance-visa-applications-october-2026"
+  },
   {
    "id": "nz-child-status-residence-nov26",
    "date": "2026-11-10",
    "country": "NZ",
    "topic": "Rule change",
-   "lead": true,
    "kicker": "Pikin first",
    "headline": "New Zealand won't grant parents residence while a child is unlawful",
    "summary": "Immigration New Zealand says that for residence applications lodged from 12 November 2026, a parent or other secondary applicant cannot be approved while a dependent child is in the country without a valid visa. The child must first get a proper visa or leave New Zealand, and dropping the child from the application does not get around the rule. Applications lodged before 12 November are decided under the old rules.",
@@ -217,6 +252,7 @@
    "date": "2026-09-09",
    "country": "UK",
    "topic": "Students",
+   "lead": true,
    "kicker": "Money hike",
    "headline": "UK student money goes up on 30 November",
    "summary": "Students must show £1,570 a month for London and £1,203 outside London from 30 November 2026, up from £1,529 and £1,171. For a 9-month course that is £14,130 or £10,827.",
