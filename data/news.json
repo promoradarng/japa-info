@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "stories": [
+  {
+   "id": "ie-permits-portal-outage-nov26",
+   "date": "2026-11-09",
+   "country": "IE",
+   "topic": "Timing",
+   "kicker": "Portal don shut",
+   "headline": "Ireland's work permit portal stays offline after security breach",
+   "summary": "Ireland's Employment Permits Portal has been shut since late October after the Department of Enterprise found unauthorised activity on the system, and it has missed its planned reopening date. Applications already submitted are still being decided, but new applications cannot be sent by email while the department prepares temporary arrangements. Officials say people whose renewals or deadlines are delayed by the outage will get flexibility, and that only names, email addresses and account roles appear to have been exposed.",
+   "tip": "Watch for fake emails or texts about your permit: the department says it never asks for personal details that way, so send urgent questions only to epos@enterprise.gov.ie.",
+   "source": "Department of Enterprise, Tourism and Employment (Ireland)",
+   "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permits-portal-service/"
+  },
   {
    "id": "ca-extra-pr-spaces-nov26",
    "date": "2026-11-10",
