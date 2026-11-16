@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "stories": [
+  {
+   "id": "au-407-offshore-nov26",
+   "date": "2026-11-12",
+   "country": "AU",
+   "topic": "Rule change",
+   "kicker": "Apply from outside",
+   "headline": "Australia's Training visa (407) now only for applicants outside Australia",
+   "summary": "From 12 November 2026, a new application for Australia's Training visa (subclass 407) is only valid if you lodge it while outside Australia, and you must also be outside Australia when the visa is granted. An application made from inside Australia under the new rule is treated as invalid and gets no bridging visa, even if the online system accepts it. Valid applications lodged before 12 November are still decided under the old rules, and existing 407 visas are not cancelled.",
+   "tip": "If an employer offers you a 407 training place, make sure their nomination is approved first, then lodge from Nigeria and wait there for the decision.",
+   "source": "Department of Home Affairs (Australia)",
+   "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-training-visa-407-application-rules"
+  },
   {
    "id": "au-485-family-rule-nov26",
    "date": "2026-11-13",
