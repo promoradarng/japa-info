@@ -1,6 +1,32 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "stories": [
+  {
+   "id": "us-dos-rule-struck-nov26",
+   "date": "2026-11-16",
+   "country": "US",
+   "topic": "Students",
+   "kicker": "Court don rule",
+   "headline": "US court strikes down four-year cap on student visa stays",
+   "summary": "A federal judge in Massachusetts has thrown out the Homeland Security rule that would have given F-1 students, J-1 exchange visitors and foreign journalists a fixed admission period instead of 'duration of status'. The court had already paused the rule in September, and on 16 November it cancelled it completely. For now, students can stay as long as they keep studying full time on a valid I-20, but the government can still appeal.",
+   "tip": "Keep your I-20 and SEVIS record current and talk to your school's international office before planning around any fixed end date, as an appeal could change things.",
+   "source": "The NewsGuild-CWA",
+   "url": "https://newsguild.org/victory-federal-court-sides-with-newsguild-and-allies-in-challenge-to-dhs-visa-rule-affecting-foreign-journalists",
+   "lead": true
+  },
+  {
+   "id": "uk-bhc-scam-warning-nov26",
+   "date": "2026-11-16",
+   "country": "UK",
+   "topic": "Visa warning",
+   "kicker": "No guarantee",
+   "headline": "British High Commission warns Nigerians: nobody can guarantee a UK visa",
+   "summary": "The British High Commission in Nigeria has told applicants that no agent, person or company can promise a successful UK visa. It says any offer of guaranteed approval by email, phone call or social media is a scam. Applications should only be made through the official GOV.UK website.",
+   "tip": "Apply only on GOV.UK, never pay anyone who promises approval, and report suspicious offers before sending money or documents.",
+   "source": "British High Commission Nigeria (via Legit.ng)",
+   "url": "https://www.legit.ng/world/europe/1741667-japa-uk-releases-public-advisory-visa-application/",
+   "embed": "https://x.com/UKinNigeria/status/2122329108860301354"
+  },
   {
    "id": "au-407-offshore-nov26",
    "date": "2026-11-12",
@@ -23,8 +49,7 @@
    "summary": "From 13 November 2026, partners and children can only be included in a Temporary Graduate (subclass 485) visa if they apply together with the graduate in one combined application. In most cases they must already have been on the graduate's Student or 485 visa as dependants, or be a child born after that visa was granted; joining later as a subsequent entrant is no longer possible. Applications lodged before 13 November are decided under the old rules.",
    "tip": "If you are studying in Australia and plan to bring a spouse or child, add them to your Student visa now and lodge your 485 together with them.",
    "source": "Department of Home Affairs (Australia)",
-   "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules",
-   "lead": true
+   "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules"
   },
   {
    "id": "nz-family-visas-online-nov26",
@@ -153,8 +178,8 @@
    "topic": "Students",
    "kicker": "Fixed stay",
    "headline": "US ends open-ended student stay: F-1 degree students get 4 years",
-   "summary": "A US Homeland Security rule that took effect on 15 September 2026 replaces the old 'duration of status' with a fixed end date on the I-94 record. Degree students get up to four years and language students up to 24 months. Staying longer means applying to USCIS for an extension, and a refusal can leave a student with no grace period.",
-   "tip": "Check the admit-until date on your I-94 after every entry, and plan long courses, like PhDs, with an extension in mind.",
+   "summary": "A US Homeland Security rule that took effect on 15 September 2026 replaces the old 'duration of status' with a fixed end date on the I-94 record. Degree students get up to four years and language students up to 24 months. Staying longer means applying to USCIS for an extension, and a refusal can leave a student with no grace period. Update: a federal court paused this rule on 14 September and struck it down on 16 November 2026, so duration of status still applies for now.",
+   "tip": "Check your I-20 and follow your school's international office, as the government may appeal the court ruling.",
    "source": "ICEF Monitor",
    "url": "https://monitor.icef.com/2026/07/breaking-us-department-of-homeland-security-publishes-rule-to-end-duration-of-status-for-international-students/"
   },
