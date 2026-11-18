@@ -1,6 +1,44 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "stories": [
+  {
+   "id": "uk-commonwealth-shared-dec26",
+   "date": "2026-11-18",
+   "country": "UK",
+   "topic": "Students",
+   "kicker": "Free master's",
+   "headline": "Commonwealth Shared Scholarships for UK master's close 8 December",
+   "summary": "Applications are open for the 2027/28 Commonwealth Shared Scholarships, which pay for a one-year master's at a UK university starting in September or October 2027, and Nigerians are eligible. The award covers full tuition, a return flight and a monthly living allowance of £1,712, or £2,000 in the London area. The closing time is 16:00 GMT on 8 December 2026.",
+   "tip": "Apply through the Commonwealth Scholarship Commission's own site, check that your chosen university and course are on the shared scholarship list, and submit well before 8 December.",
+   "source": "Commonwealth Scholarship Commission in the UK",
+   "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships/",
+   "lead": true
+  },
+  {
+   "id": "us-birth-tourism-revocations-nov26",
+   "date": "2026-11-13",
+   "country": "US",
+   "topic": "Visa warning",
+   "kicker": "Belle visa wahala",
+   "headline": "US says it has cancelled over 6,000 visas linked to birth tourism",
+   "summary": "The US State Department's Birth Tourism Prevention Task Force says it has now revoked more than 6,000 visas held by people who travelled to give birth in America so the child gets US citizenship, or who helped arrange such trips. A month earlier the figure was about 4,000, and the department says it is still identifying others. It did not say how many of those affected were Nigerian.",
+   "tip": "Never use a US visitor visa to travel for childbirth or to help someone else do so; it can cost you the visa and future applications.",
+   "source": "Premium Times",
+   "url": "https://www.premiumtimesng.com/news/top-news/924951-us-revokes-over-6000-visas-in-its-birth-tourism-crackdown.html"
+  },
+  {
+   "id": "de-abuja-visa-closure-dec26",
+   "date": "2026-10-22",
+   "country": "DE",
+   "topic": "Timing",
+   "kicker": "Abuja shut",
+   "headline": "German embassy in Abuja closes visa section for December and January",
+   "summary": "Germany's embassy in Abuja says its visa section will be shut through December 2026 and January 2027 because of building work. During that time, visa applicants who would normally go to Abuja must apply at the German Consulate General in Lagos. No exact reopening date was given, and it is not clear whether Lagos will release extra appointments to cover the demand.",
+   "tip": "If you live in the North and need a German visa before February, book a Lagos appointment early and budget for the trip.",
+   "source": "Legit.ng",
+   "url": "https://www.legit.ng/nigeria/1737396-german-embassy-abuja-close-visa-section-2-months-nigerians-alternative/",
+   "embed": "https://x.com/GERinNigeria/status/2112904151650677247"
+  },
   {
    "id": "us-dos-rule-struck-nov26",
    "date": "2026-11-16",
@@ -11,8 +49,7 @@
    "summary": "A federal judge in Massachusetts has thrown out the Homeland Security rule that would have given F-1 students, J-1 exchange visitors and foreign journalists a fixed admission period instead of 'duration of status'. The court had already paused the rule in September, and on 16 November it cancelled it completely. For now, students can stay as long as they keep studying full time on a valid I-20, but the government can still appeal.",
    "tip": "Keep your I-20 and SEVIS record current and talk to your school's international office before planning around any fixed end date, as an appeal could change things.",
    "source": "The NewsGuild-CWA",
-   "url": "https://newsguild.org/victory-federal-court-sides-with-newsguild-and-allies-in-challenge-to-dhs-visa-rule-affecting-foreign-journalists",
-   "lead": true
+   "url": "https://newsguild.org/victory-federal-court-sides-with-newsguild-and-allies-in-challenge-to-dhs-visa-rule-affecting-foreign-journalists"
   },
   {
    "id": "uk-bhc-scam-warning-nov26",
@@ -452,48 +489,6 @@
    "tip": "Before paying a deposit, ask the school in writing if it can sponsor visas this year.",
    "source": "SeoulStart",
    "url": "https://seoulstart.com/guides/d-2-visa-guide"
-  },
-  {
-   "id": "nz-psw-nov26",
-   "date": "2026-10-15",
-   "country": "NZ",
-   "topic": "Students",
-   "kicker": "Work rights",
-   "headline": "New Zealand widens post-study work visa from 16 November",
-   "summary": "From 16 November 2026, people with a bachelor's degree plus a full-time New Zealand graduate diploma can qualify for a post-study work visa in their field. Students can already work 25 hours a week during term.",
-   "tip": "Pick a course that leads to work in a high-demand field if you want to stay after study.",
-   "source": "NZ Immigration Info",
-   "url": "https://nzimmigration.info/student-visa/"
-  },
-  {
-   "id": "uk-student-delays-oct26",
-   "date": "2026-10-20",
-   "country": "UK",
-   "topic": "Students",
-   "kicker": "Visa limbo",
-   "headline": "UK student visa delays leave applicants missing course start dates",
-   "summary": "Universities report students stuck waiting for visas well beyond the three-week standard, with some cases taking up to four months and even the £500 priority service affected. Study visa applications fell 19% to 352,500 in the year to September 2026. The Home Office says straightforward applications are still being decided on time.",
-   "tip": "Choose the priority service only if you can afford it, and book your appointment as early as your CAS allows.",
-   "source": "VisaVerge",
-   "url": "https://www.visaverge.com/f1visa/international-students-in-limbo-as-home-office-visa-delays-and-refusals-mount/",
-   "image": "images/uk-student-delays-oct26.jpg",
-   "alt": "An empty university lecture theatre",
-   "credit": "Stock image: barbourians / Flickr, CC BY-SA 2.0"
-  },
-  {
-   "id": "ca-ee-highwage-nov26",
-   "date": "2026-10-16",
-   "country": "CA",
-   "topic": "Rule change",
-   "kicker": "Points shake-up",
-   "headline": "Canada Express Entry rewards high-wage jobs from 3 November",
-   "summary": "From 3 November 2026, Express Entry gives new points for a qualifying job offer or at least a year of Canadian work in a high-wage occupation, worth up to 100 points for an offer. A job offer will no longer need an LMIA to count, though IRCC will check it is genuine. Scores in the pool will be recalculated and draws will pause for up to two weeks while that happens.",
-   "tip": "If you have a genuine high-wage Canadian job offer, update your Express Entry profile before 3 November.",
-   "source": "CIC News",
-   "url": "https://www.cicnews.com/2026/10/2026-express-entry-reforms-1081487.html",
-   "image": "images/ca-ee-highwage-nov26.jpg",
-   "alt": "A Canadian passport",
-   "credit": "Stock image: striatic / Flickr, CC BY 2.0"
   }
  ]
 }
