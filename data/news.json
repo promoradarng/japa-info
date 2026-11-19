@@ -1,6 +1,43 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "stories": [
+  {
+   "id": "us-cpt-ruling-nov26",
+   "date": "2026-11-17",
+   "country": "US",
+   "topic": "Students",
+   "kicker": "Internship reprieve",
+   "headline": "US judge blocks new limits on student internships (CPT)",
+   "summary": "A federal judge in Boston has stopped the Department of Homeland Security from enforcing two August 2026 directives that narrowed curricular practical training (CPT), the work placements F-1 students do as part of their course. Under the directives, a placement only counted if every student in the programme had to do it, which shut out elective internships taken for credit. The order is a preliminary injunction, so the case continues and the government could still appeal.",
+   "tip": "If you are on an F-1 visa and a CPT placement was cancelled or put on hold, ask your school's international student office (your DSO) whether it can now be authorised again.",
+   "source": "Reuters via The Korea Times",
+   "url": "https://www.koreatimes.co.kr/world/20261118/us-judge-blocks-trump-policy-restricting-foreign-student-work-options"
+  },
+  {
+   "id": "au-visitor-no-further-stay-nov26",
+   "date": "2026-11-16",
+   "country": "AU",
+   "topic": "Rule change",
+   "kicker": "No switching",
+   "headline": "Australia visitor visas lodged from 28 November will carry 'No Further Stay'",
+   "summary": "From 28 November 2026, condition 8503 ('No Further Stay') becomes compulsory on Australian Visitor (subclass 600) tourist and business visas, as well as ETA and eVisitor visas. Anyone holding such a visa will generally be unable to apply for another visa, such as a student or work visa, while inside Australia. It only covers applications lodged on or after 28 November, and a waiver is possible only after a major change in circumstances you could not have foreseen.",
+   "tip": "If you want to study or work in Australia, apply for that visa from Nigeria; do not plan to enter as a visitor and switch, and lodge any visitor application you have ready before 28 November.",
+   "source": "Vialto Partners",
+   "url": "https://vialtopartners.com/regional-alerts/australia-immigration-stricter-visitor-visa-rules-no-further-stay-condition-mandatory-from-28-november-2026",
+   "lead": true
+  },
+  {
+   "id": "us-new-enrolment-drop-nov26",
+   "date": "2026-11-16",
+   "country": "US",
+   "topic": "Students",
+   "kicker": "Fewer arrivals",
+   "headline": "New international students at US universities down 15% this autumn",
+   "summary": "The Institute of International Education says US colleges hosted about 1.15 million international students in 2025/26, but its autumn 2026 snapshot of more than 800 institutions shows total international enrolment down 9% and new enrolment down 15%. The fall in graduate numbers came mainly from fewer master's students. Most Nigerians cannot get new US student visas while the January 2026 suspension remains in place.",
+   "tip": "If the US is closed to you for now, compare UK, Canadian, Irish or German master's options and their intake deadlines rather than waiting on a US place.",
+   "source": "Institute of International Education",
+   "url": "https://www.iie.org/news/u-s-colleges-and-universities-host-1-1m-international-students-in-2025-2026-school-year/"
+  },
   {
    "id": "uk-commonwealth-shared-dec26",
    "date": "2026-11-18",
@@ -11,8 +48,7 @@
    "summary": "Applications are open for the 2027/28 Commonwealth Shared Scholarships, which pay for a one-year master's at a UK university starting in September or October 2027, and Nigerians are eligible. The award covers full tuition, a return flight and a monthly living allowance of £1,712, or £2,000 in the London area. The closing time is 16:00 GMT on 8 December 2026.",
    "tip": "Apply through the Commonwealth Scholarship Commission's own site, check that your chosen university and course are on the shared scholarship list, and submit well before 8 December.",
    "source": "Commonwealth Scholarship Commission in the UK",
-   "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships/",
-   "lead": true
+   "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships/"
   },
   {
    "id": "us-birth-tourism-revocations-nov26",
@@ -383,18 +419,6 @@
    "url": "https://businessday.ng/?p=1170141"
   },
   {
-   "id": "us-proclamation",
-   "date": "2026-01-01",
-   "country": "US",
-   "topic": "Visa denial",
-   "kicker": "Partial ban",
-   "headline": "Most US visitor and student visas suspended for Nigerians",
-   "summary": "Since 1 January 2026, new B-1/B-2 visitor visas and F, M and J student and exchange visas are suspended for Nigerians without a valid US visa. Visas issued before then were not cancelled.",
-   "tip": "If you already hold a valid US visa, keep it valid and don't overstay it.",
-   "source": "The ICIR",
-   "url": "https://www.icirnigeria.org/us-suspends-visa-issuance-to-nigerians-on-january-1/"
-  },
-  {
    "id": "au-student-oct26",
    "date": "2026-10-02",
    "country": "AU",
@@ -465,30 +489,6 @@
    "tip": "Never pay for a job offer or a Certificate of Sponsorship.",
    "source": "Jobbatical",
    "url": "https://www.jobbatical.com/blog/uk-care-worker-visa-closed-employer-guide"
-  },
-  {
-   "id": "fr-fees-2026",
-   "date": "2026-04-15",
-   "country": "FR",
-   "topic": "Students",
-   "kicker": "Fee rise",
-   "headline": "France raises university fees for non-EU students",
-   "summary": "From the 2026/27 year, French public universities charge most non-EU students €2,895 a year for a bachelor's and €3,941 for a master's. Students already enrolled are not affected.",
-   "tip": "Search for scholarships early, because only a small share of students get fee waivers.",
-   "source": "ICEF Monitor",
-   "url": "https://monitor.icef.com/2026/04/france-directs-universities-to-charge-higher-tuition-fees-to-non-eu-students-starting-september-2026/"
-  },
-  {
-   "id": "kr-uni-ban-2026",
-   "date": "2026-02-12",
-   "country": "KR",
-   "topic": "Visa denial",
-   "kicker": "School ban",
-   "headline": "Korea bars 20 universities from sponsoring student visas",
-   "summary": "Korea's education ministry stopped 20 universities and language programmes from issuing student visas for one year from fall 2026. Students admitted there cannot get a D-2 visa through them.",
-   "tip": "Before paying a deposit, ask the school in writing if it can sponsor visas this year.",
-   "source": "SeoulStart",
-   "url": "https://seoulstart.com/guides/d-2-visa-guide"
   }
  ]
 }
