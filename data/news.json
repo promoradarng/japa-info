@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "stories": [
+  {
+   "id": "de-no-flight-ticket-nov26",
+   "date": "2026-11-18",
+   "country": "DE",
+   "topic": "Visa warning",
+   "kicker": "No buy ticket yet",
+   "headline": "German mission: you don't need a paid flight ticket to apply for a visa",
+   "summary": "The German Mission in Nigeria said on X on 18 November that applicants do not have to buy a flight ticket before applying for a German visa. Depending on the visa checklist, a flight reservation or a proposed travel itinerary is enough. The post was the last in its series busting claims made by visa agents.",
+   "tip": "Check the checklist for your visa type on the German Missions in Nigeria website, submit a reservation or itinerary, and buy the actual ticket only after your visa is issued.",
+   "source": "Chronicle NG / German Mission in Nigeria",
+   "url": "https://chronicle.ng/flight-ticket-germany-visa-application/",
+   "embed": "https://x.com/GERinNigeria/status/2122958069189734767"
+  },
   {
    "id": "us-cpt-ruling-nov26",
    "date": "2026-11-17",
@@ -465,18 +478,6 @@
    "tip": "Show steady savings with a clear source. A big deposit last month looks borrowed.",
    "source": "The PIE News",
    "url": "https://thepienews.com/?p=275923"
-  },
-  {
-   "id": "eu-schengen-refusals",
-   "date": "2026-05-13",
-   "country": "EU",
-   "topic": "Visa denial",
-   "kicker": "Denials",
-   "headline": "Nigeria has West Africa's highest Schengen refusal rate",
-   "summary": "Nearly 46% of Nigerian Schengen applications were refused in the latest EU figures, against an 18% global average. The €90 fee is not refunded, and appeals must be filed within 15 days.",
-   "tip": "Show strong ties to Nigeria, a clear day-by-day plan and bank activity that looks normal.",
-   "source": "VisaVerge",
-   "url": "https://www.visaverge.com/news/schengen-visa-rejections-rise-for-nigerians-in-pensionable-jobs-as-2026-rules-tighten/"
   },
   {
    "id": "uk-care-closed",
