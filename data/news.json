@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "stories": [
+  {
+   "id": "uk-evisa-details-check-nov26",
+   "date": "2026-11-16",
+   "country": "UK",
+   "topic": "Visa warning",
+   "kicker": "Check your eVisa",
+   "headline": "UKVI tells eVisa holders to check nationality and date of birth",
+   "summary": "UK Visas and Immigration emailed eVisa holders on 16 November after a review found that, in a small number of cases, the nationality or date of birth on an eVisa did not match the Home Office record. eVisas and share codes now show the verified record, and UKVI says permission, expiry dates and conditions such as the right to work and rent are not affected. It did not say how many people were hit.",
+   "tip": "Log in to your UKVI account, confirm your nationality, date of birth and linked passport are correct before you travel or start a new job, and use the GOV.UK eVisa error form if anything is wrong.",
+   "source": "DavidsonMorris / UK Visas and Immigration",
+   "url": "https://www.davidsonmorris.com/evisa-data-errors-check-your-nationality-and-date-of-birth/"
+  },
+  {
+   "id": "nz-online-upgrade-delay-nov26",
+   "date": "2026-11-20",
+   "country": "NZ",
+   "topic": "Timing",
+   "kicker": "System go slow",
+   "headline": "New Zealand visa portal down Sunday after Microsoft outage pushed upgrade back a week",
+   "summary": "Immigration New Zealand says many online visa applications, including student, most visitor, AEWV and partner or child of a worker or student visas, cannot be started or continued from 08:00 to 23:59 NZ time on Sunday 22 November. Some others, including partner or child of a New Zealander visas, go offline briefly between 06:00 and 08:00 on Monday 23 November. The upgrade was first planned for 15–16 November but slipped a week after a global Microsoft outage disrupted INZ systems.",
+   "tip": "If you are applying to New Zealand this weekend, submit before Saturday night Nigerian time or wait until Monday, and save your form often so you do not lose work.",
+   "source": "Immigration New Zealand",
+   "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/planned-upgrades/"
+  },
+  {
+   "id": "ca-ee-researchers-nov26",
+   "date": "2026-11-18",
+   "country": "CA",
+   "topic": "Rule change",
+   "kicker": "Postdoc path",
+   "headline": "Canada counts stipend-paid professor and postdoc work for Express Entry",
+   "summary": "IRCC has changed the Express Entry category for researchers with Canadian work experience. Work as a university professor, lecturer or postdoctoral researcher (NOC 41200) now counts even when it is paid through stipends, grants, bursaries or scholarships, and it can earn CRS points. Teaching and research assistant jobs (NOC 41201) no longer qualify for this category.",
+   "tip": "If you are a postdoc or lecturer in Canada paid by stipend or grant, update your Express Entry profile to list that experience under NOC 41200.",
+   "source": "Immigration, Refugees and Citizenship Canada",
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/express-entry-updates-top-researchers-continue-contributing-canada-innovation-ecosystem.html"
+  },
   {
    "id": "de-no-flight-ticket-nov26",
    "date": "2026-11-18",
@@ -420,18 +456,6 @@
    "url": "https://amberstudent.com/news/post/uk-to-raise-student-visa-maintenance-requirement"
   },
   {
-   "id": "us-lagos-hub",
-   "date": "2026-08-01",
-   "country": "US",
-   "topic": "Rule change",
-   "kicker": "Abuja shut",
-   "headline": "US visas for Nigerians now processed only in Lagos",
-   "summary": "Routine US visa services at the Abuja embassy ended on 1 August 2026. Appointments, fees and interviews all go through the Lagos consulate. The partial visa suspension, visa bonds and immigrant visa pauses remain in force.",
-   "tip": "Book through the official US visa site only. Anyone selling 'Abuja slots' is a scammer.",
-   "source": "BusinessDay",
-   "url": "https://businessday.ng/?p=1170141"
-  },
-  {
    "id": "au-student-oct26",
    "date": "2026-10-02",
    "country": "AU",
@@ -442,18 +466,6 @@
    "tip": "Plan to apply from Nigeria, and decide early whether your family is coming with you.",
    "source": "Study Australia",
    "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-changes-october-2026"
-  },
-  {
-   "id": "uk-brp-dec26",
-   "date": "2026-06-09",
-   "country": "UK",
-   "topic": "Rule change",
-   "kicker": "Already in UK?",
-   "headline": "Expired BRP cards stop working at the end of 2026",
-   "summary": "The Home Office lets expired BRPs be used for some purposes only until 31 December 2026. You can't travel on an expired BRP. Your eVisa is now the proof of your status.",
-   "tip": "Log into your UKVI account and check your passport is linked before you travel.",
-   "source": "DavidsonMorris",
-   "url": "https://www.davidsonmorris.com/home-office-extends-expired-brp-concession-until-end-of-2026/"
   },
   {
    "id": "uk-graduate-2027",
@@ -478,18 +490,6 @@
    "tip": "Show steady savings with a clear source. A big deposit last month looks borrowed.",
    "source": "The PIE News",
    "url": "https://thepienews.com/?p=275923"
-  },
-  {
-   "id": "uk-care-closed",
-   "date": "2026-05-15",
-   "country": "UK",
-   "topic": "Rule change",
-   "kicker": "Scam alert",
-   "headline": "Care worker visa from abroad is closed, but agents still sell it",
-   "summary": "The UK stopped sponsoring care workers and senior care workers from overseas on 22 July 2025. Any 'care job with sponsorship' offered to someone in Nigeria for a fee is fake.",
-   "tip": "Never pay for a job offer or a Certificate of Sponsorship.",
-   "source": "Jobbatical",
-   "url": "https://www.jobbatical.com/blog/uk-care-worker-visa-closed-employer-guide"
   }
  ]
 }
