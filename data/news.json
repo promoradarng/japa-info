@@ -1,6 +1,43 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "stories": [
+  {
+   "id": "ng-passport-factory-may27",
+   "date": "2026-11-20",
+   "country": "NG",
+   "topic": "Rule change",
+   "kicker": "Made in Naija",
+   "headline": "Nigeria to print its own passport booklets from May 2027",
+   "summary": "Interior Minister Olubunmi Tunji-Ojo broke ground on 20 November on a $70 million passport booklet factory at the Nigeria Immigration Service headquarters in Abuja, and said local production should start by May 2027. The plant is meant to make six million e-passport booklets a year at first, well above Nigeria's yearly need of about two million, so booklet shortages caused by foreign suppliers and exchange rates should ease. It is privately funded under a concession, and the new factory alone does not promise faster processing.",
+   "tip": "Don't wait for the new factory: if your passport expires within the next year, renew now through the NIS contactless portal, because many embassies want at least six months' validity.",
+   "source": "Arise News",
+   "url": "https://www.arise.tv/nigeria-starts-70m-passport-factory-targets-may-2027-production/",
+   "lead": true
+  },
+  {
+   "id": "au-bvb-travel-30nov26",
+   "date": "2026-11-17",
+   "country": "AU",
+   "topic": "Timing",
+   "kicker": "Travel wahala",
+   "headline": "Australia tightens travel permission for sponsored workers waiting on visas",
+   "summary": "Home Affairs says Bridging Visa B applications lodged from 30 November 2026 by people waiting on an employer-sponsored visa will get travel periods that match the actual trip, not the long periods of up to a year or more that were common. Applicants must give a real reason, dates and evidence, and a general 'holiday' or 'visiting family' line may not be enough. The law is not changing, only how strictly officers apply it, and a trip that runs past the approved period ends the BVB.",
+   "tip": "If you are on a bridging visa in Australia and plan to visit Nigeria for Christmas, lodge your BVB before 30 November or 2 weeks to 3 months before you fly, with evidence of your trip, and don't buy a non-refundable ticket until it is granted.",
+   "source": "KPMG / Department of Home Affairs",
+   "url": "https://kpmg.com/xx/en/our-insights/gms-flash-alert/2026/flash-alert-2026-297.html"
+  },
+  {
+   "id": "ie-irp-renew-early-nov26",
+   "date": "2026-11-09",
+   "country": "IE",
+   "topic": "Timing",
+   "kicker": "Renew am now",
+   "headline": "Ireland tells residents travelling at Christmas to renew IRP cards early",
+   "summary": "Immigration Service Delivery says Irish Residence Permit renewals are taking about six to nine weeks because of high demand, and the new card can take up to two more weeks to arrive. It cannot promise a card in time for holiday travel, and emergency re-entry visas are only for genuine emergencies, not planned trips. Your new permission still starts from the old card's expiry date, so applying early costs you nothing.",
+   "tip": "If your IRP card expires before or during a Christmas trip home, apply online for renewal today and keep your proof of application with you.",
+   "source": "Envoy Global / Immigration Service Delivery",
+   "url": "https://www.envoyglobal.com/news-alert/ireland-urges-early-irp-card-renewals-ahead-of-holiday-travel/"
+  },
   {
    "id": "uk-evisa-details-check-nov26",
    "date": "2026-11-16",
@@ -72,8 +109,7 @@
    "summary": "From 28 November 2026, condition 8503 ('No Further Stay') becomes compulsory on Australian Visitor (subclass 600) tourist and business visas, as well as ETA and eVisitor visas. Anyone holding such a visa will generally be unable to apply for another visa, such as a student or work visa, while inside Australia. It only covers applications lodged on or after 28 November, and a waiver is possible only after a major change in circumstances you could not have foreseen.",
    "tip": "If you want to study or work in Australia, apply for that visa from Nigeria; do not plan to enter as a visitor and switch, and lodge any visitor application you have ready before 28 November.",
    "source": "Vialto Partners",
-   "url": "https://vialtopartners.com/regional-alerts/australia-immigration-stricter-visitor-visa-rules-no-further-stay-condition-mandatory-from-28-november-2026",
-   "lead": true
+   "url": "https://vialtopartners.com/regional-alerts/australia-immigration-stricter-visitor-visa-rules-no-further-stay-condition-mandatory-from-28-november-2026"
   },
   {
    "id": "us-new-enrolment-drop-nov26",
@@ -330,18 +366,6 @@
    "url": "https://www.cdc.gov/port-health/legal-authorities/attestation-order.html"
   },
   {
-   "id": "nz-graduate-visa-nov26",
-   "date": "2026-09-10",
-   "country": "NZ",
-   "topic": "Students",
-   "kicker": "Fresh Window",
-   "headline": "New Zealand opens six-month graduate work visa on 16 November",
-   "summary": "Immigration New Zealand will start accepting a new Short-Term Graduate Work Visa on 16 November 2026. It gives six months of open work rights to graduates of full-time courses at levels 5 to 7 that last at least 24 weeks and do not already qualify for a Post-Study Work Visa. Applicants need NZ$5,000 in funds and must apply within three months of their student visa ending; students whose visa expired before 16 August are out.",
-   "tip": "Check your student visa expiry date and course level now, and gather your medical certificate, chest X-ray and bank statement before applications open.",
-   "source": "Immigration New Zealand",
-   "url": "https://www.immigration.govt.nz/about-us/news-centre/new-short-term-graduate-work-visa-launching-on-16-november-2026/"
-  },
-  {
    "id": "uk-budget-graduate-oct26",
    "date": "2026-10-28",
    "country": "UK",
@@ -444,18 +468,6 @@
    "credit": "Stock image: Christopher Elison / Flickr, CC BY 2.0"
   },
   {
-   "id": "uk-funds-nov26",
-   "date": "2026-09-09",
-   "country": "UK",
-   "topic": "Students",
-   "kicker": "Money hike",
-   "headline": "UK student money goes up on 30 November",
-   "summary": "Students must show £1,570 a month for London and £1,203 outside London from 30 November 2026, up from £1,529 and £1,171. For a 9-month course that is £14,130 or £10,827.",
-   "tip": "If your documents are ready, apply before 30 November to use the lower figure.",
-   "source": "Amber",
-   "url": "https://amberstudent.com/news/post/uk-to-raise-student-visa-maintenance-requirement"
-  },
-  {
    "id": "au-student-oct26",
    "date": "2026-10-02",
    "country": "AU",
@@ -478,18 +490,6 @@
    "tip": "Finished your degree this year? Submit your Graduate visa application before 31 December.",
    "source": "Paragon Law",
    "url": "https://www.paragonlaw.co.uk/resources/uk-graduate-visa-2026-guide"
-  },
-  {
-   "id": "ca-funds-sep26",
-   "date": "2026-09-10",
-   "country": "CA",
-   "topic": "Visa denial",
-   "kicker": "Refusal reason",
-   "headline": "Canada raises student funds as money proof tops refusals",
-   "summary": "Study permit applicants outside Quebec must now show CAD 23,448 for living costs, plus tuition and travel. A study of June 2026 decisions found 47% of refusals came down to weak financial documents.",
-   "tip": "Show steady savings with a clear source. A big deposit last month looks borrowed.",
-   "source": "The PIE News",
-   "url": "https://thepienews.com/?p=275923"
   }
  ]
 }
