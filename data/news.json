@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "stories": [
+  {
+   "id": "uk-student-funds-rise-30nov26",
+   "date": "2026-11-23",
+   "country": "UK",
+   "topic": "Timing",
+   "kicker": "One week left",
+   "headline": "UK student visa funds go up on 30 November",
+   "summary": "From Sunday 30 November, UK student visa applicants must show more money for living costs: £1,570 a month for study in London (up from £1,529) and £1,203 a month elsewhere (up from £1,171), for up to nine months. The change comes from the Home Office's September statement of changes (HC 584). Applications made before 30 November are judged on the old amounts.",
+   "tip": "If your CAS and bank statement are ready, submit before 30 November to use the lower figure; if not, make sure your account shows the new amount for the full 28 days before you apply.",
+   "source": "GOV.UK (Home Office)",
+   "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026-accessible",
+   "lead": true
+  },
   {
    "id": "ng-passport-factory-may27",
    "date": "2026-11-20",
@@ -11,8 +24,7 @@
    "summary": "Interior Minister Olubunmi Tunji-Ojo broke ground on 20 November on a $70 million passport booklet factory at the Nigeria Immigration Service headquarters in Abuja, and said local production should start by May 2027. The plant is meant to make six million e-passport booklets a year at first, well above Nigeria's yearly need of about two million, so booklet shortages caused by foreign suppliers and exchange rates should ease. It is privately funded under a concession, and the new factory alone does not promise faster processing.",
    "tip": "Don't wait for the new factory: if your passport expires within the next year, renew now through the NIS contactless portal, because many embassies want at least six months' validity.",
    "source": "Arise News",
-   "url": "https://www.arise.tv/nigeria-starts-70m-passport-factory-targets-may-2027-production/",
-   "lead": true
+   "url": "https://www.arise.tv/nigeria-starts-70m-passport-factory-targets-may-2027-production/"
   },
   {
    "id": "au-bvb-travel-30nov26",
@@ -328,18 +340,6 @@
    "tip": "Study permit places stay tight, so apply early with a strong study plan and clear proof of funds.",
    "source": "The Canadian Press / BNN Bloomberg",
    "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/05/ottawa-to-shift-more-temporary-residents-to-permanent-status-as-broad-levels-flatten/"
-  },
-  {
-   "id": "us-fixed-stay-students-sep26",
-   "date": "2026-09-15",
-   "country": "US",
-   "topic": "Students",
-   "kicker": "Fixed stay",
-   "headline": "US ends open-ended student stay: F-1 degree students get 4 years",
-   "summary": "A US Homeland Security rule that took effect on 15 September 2026 replaces the old 'duration of status' with a fixed end date on the I-94 record. Degree students get up to four years and language students up to 24 months. Staying longer means applying to USCIS for an extension, and a refusal can leave a student with no grace period. Update: a federal court paused this rule on 14 September and struck it down on 16 November 2026, so duration of status still applies for now.",
-   "tip": "Check your I-20 and follow your school's international office, as the government may appeal the court ruling.",
-   "source": "ICEF Monitor",
-   "url": "https://monitor.icef.com/2026/07/breaking-us-department-of-homeland-security-publishes-rule-to-end-duration-of-status-for-international-students/"
   },
   {
    "id": "uk-settlement-10yr-nov26",
