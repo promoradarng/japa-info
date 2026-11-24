@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "stories": [
+  {
+   "id": "uk-student-interviews-84pc-nov26",
+   "date": "2026-11-18",
+   "country": "UK",
+   "topic": "Visa denial",
+   "kicker": "Prepare well o",
+   "headline": "UK judged 84% of interviewed Nigerian students not credible",
+   "summary": "A UK Visas and Immigration briefing seen by The PIE News shows caseworkers found 9,043 of the 11,415 student visa applicants they interviewed between May and October 2026 not credible. For Nigerian applicants the figure was 84%, behind only Nepal and India, and the share of Nigerians called for interview jumped from 7% in 2025 to 21% this year. The most common weak points were little research into the university, not explaining why the UK and the course fit future plans, poor course knowledge, English level and doubts about funds.",
+   "tip": "Before your credibility interview, be ready to explain in your own words why you chose this university, course and the UK, how it fits your career, and exactly where your money comes from.",
+   "source": "The PIE News",
+   "url": "https://thepienews.com/ukvi-rejects-80-of-students-called-to-interview-as-visa-refusals-surge/"
+  },
+  {
+   "id": "nz-short-term-grad-visa-open-nov26",
+   "date": "2026-11-16",
+   "country": "NZ",
+   "topic": "Students",
+   "kicker": "Now open",
+   "headline": "New Zealand's six-month graduate work visa is now open",
+   "summary": "Since 16 November 2026, international graduates of Level 5 to 7 courses in New Zealand who studied full-time for at least 24 weeks, but whose qualification doesn't qualify for a Post-Study Work Visa, can apply online for a Short-Term Graduate Work Visa. It gives six months of open work rights to job-hunt and move to an employer-sponsored visa, and you need at least NZ$5,000 to support yourself. You must apply within three months of your student visa ending, you get only one, and English, foundation and bridging courses don't count.",
+   "tip": "If your NZ student visa ended after 16 August 2026 or ends soon, check your qualification level and apply through Immigration Online before the three-month window closes.",
+   "source": "Immigration New Zealand",
+   "url": "https://www.immigration.govt.nz/about-us/news-centre/new-short-term-graduate-work-visa-launching-on-16-november-2026/"
+  },
   {
    "id": "uk-student-funds-rise-30nov26",
    "date": "2026-11-23",
@@ -222,18 +246,6 @@
    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-temporary-graduate-visa-subclass-485-family-member-rules"
   },
   {
-   "id": "nz-family-visas-online-nov26",
-   "date": "2026-09-29",
-   "country": "NZ",
-   "topic": "Timing",
-   "kicker": "Apply online",
-   "headline": "New Zealand moves partner and child visas to new online system from 16 November",
-   "summary": "From 16 November 2026, partners and children of New Zealand citizens and residents applying for visitor, work or student visas can use Immigration New Zealand's enhanced Immigration Online, which shows the documents each person needs. The same day, children of New Zealanders can get visitor visas of up to 12 months instead of nine. Residence applications for family are not changing for now.",
-   "tip": "If your spouse or parent lives in New Zealand, wait until 16 November and apply through the new online form so you see the exact evidence list for your case.",
-   "source": "Immigration New Zealand",
-   "url": "https://www.immigration.govt.nz/about-us/news-centre/family-of-new-zealanders-temporary-visa-applications-moving-to-enhanced-immigration-online/"
-  },
-  {
    "id": "ie-permits-portal-outage-nov26",
    "date": "2026-11-09",
    "country": "IE",
@@ -439,18 +451,6 @@
    "tip": "Use only the official German mission and VFS pages, and never pay anyone who guarantees a visa or an appointment.",
    "source": "Arbiterz",
    "url": "https://arbiterz.com/germany-warns-nigerians-against-visa-agents-says-no-one-can-guarantee-approval"
-  },
-  {
-   "id": "jp-fees-oct26",
-   "date": "2026-10-01",
-   "country": "JP",
-   "topic": "Rule change",
-   "kicker": "Fee rise",
-   "headline": "Japan raises residence permit fees, permanent residence now ¥200,000",
-   "summary": "From 1 October 2026, Japan charges more for extending a stay, changing status and permanent residence. Extensions and status changes now cost between ¥10,000 and ¥75,000 depending on how long the stay granted is, while permanent residence jumps from ¥10,000 to ¥200,000. Certificates of Eligibility for new arrivals stay free.",
-   "tip": "Budget for the new fee tier before you renew, and confirm the exact amount on the Immigration Services Agency website.",
-   "source": "Metropolis Japan",
-   "url": "https://metropolisjapan.com/japan-residence-permit-fees-rise-from-october/"
   },
   {
    "id": "uk-ng-fraud-dialogue-oct26",
