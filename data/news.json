@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "stories": [
+  {
+   "id": "ca-visitor-approvals-drop-nov26",
+   "date": "2026-11-19",
+   "country": "CA",
+   "topic": "Visa denial",
+   "kicker": "Canada tight",
+   "headline": "Canada approved 24% fewer visitor visas for Nigerians this year",
+   "summary": "New IRCC figures show Canada approved 26,210 visitor visas for Nigerians between January and August 2026, down from 34,360 in the same months of 2025, even though total approvals worldwide rose by about 11%. Nigeria still ranks fifth among source countries, and August alone was better than a year earlier. IRCC's latest estimate puts a visitor visa decision for applicants in Nigeria at about 98 days, while study permits take about 11 weeks.",
+   "tip": "Apply for a Canadian visitor visa at least four months before your trip, and show a clear reason to return home, such as a job, business or family ties, with documents to back it up.",
+   "source": "Peoples Gazette / CIC News",
+   "url": "https://gazettengr.com/nigeria-ranks-fifth-as-canada-approved-816745-visitor-visas-in-eight-months/"
+  },
   {
    "id": "uk-student-interviews-84pc-nov26",
    "date": "2026-11-18",
@@ -466,18 +478,6 @@
    "image": "images/uk-ng-fraud-dialogue-oct26.jpg",
    "alt": "A British passport",
    "credit": "Stock image: Christopher Elison / Flickr, CC BY 2.0"
-  },
-  {
-   "id": "au-student-oct26",
-   "date": "2026-10-02",
-   "country": "AU",
-   "topic": "Students",
-   "kicker": "New rules",
-   "headline": "Australia stops most onshore switches to student visas",
-   "summary": "From 2 October 2026, most temporary visa holders can't apply for a student visa inside Australia, and family members can't be added to a new student visa except in limited cases. The graduate visa fee rose to A$5,750 in July.",
-   "tip": "Plan to apply from Nigeria, and decide early whether your family is coming with you.",
-   "source": "Study Australia",
-   "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-changes-october-2026"
   },
   {
    "id": "uk-graduate-2027",
