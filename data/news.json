@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "stories": [
+  {
+   "id": "us-mission-thanksgiving-closed-nov26",
+   "date": "2026-11-25",
+   "country": "US",
+   "topic": "Timing",
+   "kicker": "Embassy shut",
+   "headline": "US Embassy Abuja and Lagos consulate shut 26–27 November",
+   "summary": "The US Mission in Nigeria says its embassy in Abuja and consulate in Lagos are closed on Thursday 26 and Friday 27 November for the American Thanksgiving holiday. No consular or visa appointments will be served on those two days, and normal work is expected to resume the following week.",
+   "tip": "If your interview or passport pickup fell on 26 or 27 November, check your appointment account and rebook through the official US visa portal only, not through an agent.",
+   "source": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/us-mission-announces-two-day-shutdown-of-abuja-lagos-offices/"
+  },
+  {
+   "id": "ca-ee-job-offer-points-nov26",
+   "date": "2026-11-25",
+   "country": "CA",
+   "topic": "Rule change",
+   "kicker": "Job offer don return",
+   "headline": "Canada's Express Entry gives job offers points again, no LMIA needed",
+   "summary": "Since 3 November, Express Entry has a new 'labour market integration' score worth up to 150 points. A job offer in a high-wage occupation now earns 50, 70 or 100 points depending on how well the job pays, and it no longer needs an LMIA; Canadian work experience in such jobs can score instead, but you get only the higher of the two. On 25 November IRCC invited 6,000 French speakers with a cut-off score of 401, the second draw under the new system.",
+   "tip": "Check if your occupation is on IRCC's high-wage list, and walk away from anyone selling a 'Canada job offer' — officers check that offers are genuine.",
+   "source": "IRCC / CIC News",
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/changes.html"
+  },
+  {
+   "id": "au-skillselect-immiaccount-nov26",
+   "date": "2026-11-18",
+   "country": "AU",
+   "topic": "Timing",
+   "kicker": "Portal move",
+   "headline": "Australia's SkillSelect moves into ImmiAccount on 28 November",
+   "summary": "Home Affairs has taken SkillSelect offline from 24 to 27 November while it moves into ImmiAccount, with the new system going live on 28 November. Submitted expressions of interest for 189, 190 and 491 skilled visas stay valid, and invitations still inside their 60-day window can be opened in the new portal. Unsubmitted draft EOIs cannot be carried over.",
+   "tip": "If you only had a draft EOI, create an ImmiAccount and start a fresh EOI from 28 November; if yours was already submitted, import it to keep track of it.",
+   "source": "Department of Home Affairs / EIG Law",
+   "url": "https://eiglaw.com/australia-moves-skillselect-to-immiaccount/"
+  },
   {
    "id": "ca-visitor-approvals-drop-nov26",
    "date": "2026-11-19",
@@ -426,33 +462,6 @@
    "url": "https://edutimesafrica.com/uk-universities-withdraw-offers-to-nigerian-students/"
   },
   {
-   "id": "nz-student-refusals-oct26",
-   "date": "2026-10-15",
-   "country": "NZ",
-   "topic": "Visa denial",
-   "kicker": "NZ Don Tight",
-   "headline": "New Zealand refuses 34% of student visas, names Nigeria in fraud warning",
-   "summary": "Between July and September 2026, Immigration New Zealand turned down about a third of full-fee student visa applications, against 13% the year before. The agency says it found altered and reused documents, and named Nigeria among five countries where it saw fraud concerns, with master's courses checked hardest. It stressed this is about individual applications, not every Nigerian applicant.",
-   "tip": "Use only your own genuine documents, never reuse bank statements an agent gives you, and make sure your funds proof matches your real finances.",
-   "source": "1News (from RNZ)",
-   "url": "https://www.1news.co.nz/2026/10/15/what-is-behind-a-recent-spike-in-refused-study-visa-applications/"
-  },
-  {
-   "id": "ca-visitor-103days-oct26",
-   "date": "2026-10-20",
-   "country": "CA",
-   "topic": "Timing",
-   "kicker": "Longer waits",
-   "headline": "Canada visitor visa wait for Nigerians climbs to 103 days",
-   "summary": "IRCC's latest processing estimates put visitor visas from Nigeria at about 103 days, up from roughly 84 to 87 days a month earlier. Study permits from Nigeria also slipped, from 9 weeks to 10, while work permits held at 10 weeks. IRCC says these are estimates, not promises.",
-   "tip": "Apply at least four months before you must travel, and do not buy a ticket until your visa is approved.",
-   "source": "Nairametrics",
-   "url": "https://nairametrics.com/2026/10/20/canada-visitor-visa-processing-time-for-nigerians-rises-to-103-days/",
-   "image": "images/ca-visitor-103days-oct26.jpg",
-   "alt": "A hand holding a Canadian passport",
-   "credit": "Stock image: 24oranges.nl / Flickr, CC BY-SA 2.0"
-  },
-  {
    "id": "de-agents-warning-oct26",
    "date": "2026-10-21",
    "country": "DE",
@@ -478,18 +487,6 @@
    "image": "images/uk-ng-fraud-dialogue-oct26.jpg",
    "alt": "A British passport",
    "credit": "Stock image: Christopher Elison / Flickr, CC BY 2.0"
-  },
-  {
-   "id": "uk-graduate-2027",
-   "date": "2026-10-16",
-   "country": "UK",
-   "topic": "Students",
-   "kicker": "Clock ticking",
-   "headline": "UK graduate visa shrinks to 18 months on 1 January",
-   "summary": "Bachelor's and master's graduates who apply on or after 1 January 2027 get 18 months instead of 2 years. It is the application date that counts. PhD graduates keep 3 years.",
-   "tip": "Finished your degree this year? Submit your Graduate visa application before 31 December.",
-   "source": "Paragon Law",
-   "url": "https://www.paragonlaw.co.uk/resources/uk-graduate-visa-2026-guide"
   }
  ]
 }
