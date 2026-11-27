@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "stories": [
+  {
+   "id": "uk-study-visas-down-23pc-nov26",
+   "date": "2026-11-26",
+   "country": "UK",
+   "topic": "Students",
+   "kicker": "Numbers don drop",
+   "headline": "UK study visas down 23% as net migration falls to 77,000",
+   "summary": "New Home Office figures published on 26 November show the UK granted about 336,000 sponsored study visas in the year to September 2026, 23% fewer than a year earlier, while Skilled Worker visas fell 27% and Health and Care Worker visas fell 44%. On the same day the ONS estimated net migration at about 77,000 for the year to June 2026, the lowest in over a decade. The UK still granted 2.2 million visitor visas in the same period.",
+   "tip": "If you plan a UK study or work visa, expect closer checks on genuineness and funds: prepare your documents fully and apply only through gov.uk, not through agents promising guaranteed approval.",
+   "source": "Home Office / Free Movement",
+   "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-september-2026/summary-of-latest-statistics"
+  },
   {
    "id": "us-mission-thanksgiving-closed-nov26",
    "date": "2026-11-25",
@@ -472,21 +484,6 @@
    "tip": "Use only the official German mission and VFS pages, and never pay anyone who guarantees a visa or an appointment.",
    "source": "Arbiterz",
    "url": "https://arbiterz.com/germany-warns-nigerians-against-visa-agents-says-no-one-can-guarantee-approval"
-  },
-  {
-   "id": "uk-ng-fraud-dialogue-oct26",
-   "date": "2026-10-21",
-   "country": "UK",
-   "topic": "Visa warning",
-   "kicker": "Fraud crackdown",
-   "headline": "UK and Nigeria vow tougher action on visa fraud and fake documents",
-   "summary": "After talks in London on 6 October, UK and Nigerian officials agreed to work together on visa fraud, organised immigration crime and better document checks. They also pledged to support safe returns of people who abuse the system. No change to UK visa rules for ordinary Nigerian travellers was announced.",
-   "tip": "Submit only genuine, verifiable documents and use the official gov.uk site, because forged papers can lead to refusal and long bans.",
-   "source": "Blueprint",
-   "url": "https://blueprint.ng/uk-nigeria-move-to-crack-down-on-visa-fraud-cybercrime-drug-trafficking/",
-   "image": "images/uk-ng-fraud-dialogue-oct26.jpg",
-   "alt": "A British passport",
-   "credit": "Stock image: Christopher Elison / Flickr, CC BY 2.0"
   }
  ]
 }
