@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "stories": [
+  {
+   "id": "ca-ee-stem-draw-nov26",
+   "date": "2026-11-26",
+   "country": "CA",
+   "topic": "Timing",
+   "kicker": "STEM draw don land",
+   "headline": "Canada holds first Express Entry STEM draw since 2024, cut-off 547",
+   "summary": "On 26 November IRCC invited 600 Express Entry candidates in STEM occupations to apply for permanent residence, the first STEM-only round since April 2024. The lowest score invited was 547, far above the 491 cut-off of the last STEM draw, and it came a day after a French-language round that invited 6,000 people at 401. Draws had paused in early November while IRCC rescored profiles under its new points system.",
+   "tip": "If you work in a STEM job, check your current score in your Express Entry profile and raise it where you can (better English or French test results, a second official language) rather than paying anyone who promises an invitation.",
+   "source": "CIC News / IRCC",
+   "url": "https://www.cicnews.com/2026/11/canada-invites-600-stem-workers-to-apply-for-permanent-residence-through-express-entry-1182888.html"
+  },
   {
    "id": "uk-study-visas-down-23pc-nov26",
    "date": "2026-11-26",
@@ -472,18 +484,6 @@
    "tip": "Hold your CAS and visa application until you have clear funds proof and strong study ties, and confirm your offer is still live before paying deposits.",
    "source": "EduTimes Africa",
    "url": "https://edutimesafrica.com/uk-universities-withdraw-offers-to-nigerian-students/"
-  },
-  {
-   "id": "de-agents-warning-oct26",
-   "date": "2026-10-21",
-   "country": "DE",
-   "topic": "Visa warning",
-   "kicker": "Agent warning",
-   "headline": "German missions warn Nigerians: we don't work with visa agents",
-   "summary": "The German embassy in Abuja and consulate in Lagos said on X that they use no visa agents and that nobody can promise approval, a job or a faster slot. Booking an appointment through the official system costs nothing. The warning followed reports of applicants who paid large sums for fake offers.",
-   "tip": "Use only the official German mission and VFS pages, and never pay anyone who guarantees a visa or an appointment.",
-   "source": "Arbiterz",
-   "url": "https://arbiterz.com/germany-warns-nigerians-against-visa-agents-says-no-one-can-guarantee-approval"
   }
  ]
 }
